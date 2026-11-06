@@ -1,0 +1,11 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://exchanfeprokatut">
+	<objectType name="prut">
+		<property name="MdSource" type="xs:string"/>
+		<property name="MdDestination" type="xs:string"/>
+		<property name="IdSource" type="xs:string"/>
+		<property name="IdDestination" type="xs:string"/>
+		<property name="Object" type="xs:string"/>
+		<property name="Action" type="xs:string"/>
+		<property name="Result" type="xs:string"/>
+	</objectType>
+</package>
