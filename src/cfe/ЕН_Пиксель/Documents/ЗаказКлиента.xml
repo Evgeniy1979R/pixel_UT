@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c1387828-b39e-42c4-9a0b-be1db25ecd77">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказКлиента" category="Object">
+				<xr:TypeId>92611e26-631c-49f2-8009-547e1698ad86</xr:TypeId>
+				<xr:ValueId>ca300a21-8a9b-4b57-96e0-af72720aa3e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказКлиента" category="Ref">
+				<xr:TypeId>397ed9df-0dab-4c97-9ec0-cc7b70e8eab4</xr:TypeId>
+				<xr:ValueId>45bf7780-9c1a-4b23-b779-3c6104db7c90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказКлиента" category="Selection">
+				<xr:TypeId>96a9ec7b-71e6-4a47-90b0-e447219bbbaa</xr:TypeId>
+				<xr:ValueId>6aec5f9c-7cdd-403a-9318-df0739a73b88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказКлиента" category="List">
+				<xr:TypeId>25c167bb-e921-40ec-9cc4-182f7deb05d3</xr:TypeId>
+				<xr:ValueId>66d30609-27ee-4b2b-9d2a-e169cb81a51b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказКлиента" category="Manager">
+				<xr:TypeId>b5efb7b6-7589-49a0-aeb4-c4bb4061d0b8</xr:TypeId>
+				<xr:ValueId>c7933578-a091-4241-9f74-4f19b9ae35e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказКлиента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1ceef4a2-6b58-45a0-8a75-bb6e3004590f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="de365fde-3a62-4c76-b2ab-3911732b834f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Менеджер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1974cb5e-5162-4f59-90ce-866449e6abe0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="191dc0d7-631f-456e-b6a5-25d7e90be252">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаказКлиента.Товары" category="TabularSection">
+						<xr:TypeId>67053380-ca94-4e1e-b9b7-51d23f28198f</xr:TypeId>
+						<xr:ValueId>f3cef57c-f3fa-4851-a7a8-7ea766940684</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаказКлиента.Товары" category="TabularSectionRow">
+						<xr:TypeId>7813a932-0fb2-480d-b911-6f52d19da2a3</xr:TypeId>
+						<xr:ValueId>fbc338a2-c916-4bca-b990-d1099d9046af</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7b526229-3286-418a-920a-ff15a9b3ec48</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4af6a94b-329d-40ec-9ded-6ab6d1334baa">
+						<Properties>
+							<Name>orderProductId</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Order product id</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>20</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

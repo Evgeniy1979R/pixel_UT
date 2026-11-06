@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="c78e6e67-86d8-4c28-bc52-7ab99f193c45">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПодборСерийВДокументы" category="Object">
+				<xr:TypeId>62fc1abf-3c13-4ff0-9812-e9ad21a2dc17</xr:TypeId>
+				<xr:ValueId>ac5a4e31-5450-4f4b-9dba-e56965ba6f01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПодборСерийВДокументы" category="Manager">
+				<xr:TypeId>ea6f6213-a95d-4e67-90bf-036166f675b3</xr:TypeId>
+				<xr:ValueId>15ff4bc6-4fbd-4d06-b5a5-a6284f15aa10</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПодборСерийВДокументы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>642d1ac9-63b1-4b94-9871-5b02fd12709f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>РегистрацияИПодборСерийПоОднойСтрокеТоваров</Form>
+			<Form>УказаниеСерииВСтрокеТоваров</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>
