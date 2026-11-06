@@ -20,11 +20,11 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.ЕН_ВПФ_ЗаказКлиентаКоммерческоеПредложение.Form.Форма</DefaultForm>
+			<DefaultForm>ExternalDataProcessor.ЕН_ВПФ_ЗаказКлиентаКоммерческоеПредложение.Form.Удалить_Форма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
-			<Form>Форма</Form>
+			<Form>Удалить_Форма</Form>
 			<Template>ПФ_MXL_СчетНаОплату</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>

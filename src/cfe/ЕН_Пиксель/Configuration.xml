@@ -124,6 +124,7 @@
 			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>КорректировкаРеализацииЛокализация</CommonModule>
 			<CommonModule>ШтрихкодированиеИСМПКлиентСервер</CommonModule>
+			<CommonModule>ДополнительныеОтчетыИОбработкиКлиентПереопределяемый</CommonModule>
 			<XDTOPackage>ДР_prud</XDTOPackage>
 			<WebService>exchangeProkat</WebService>
 			<EventSubscription>Пикс_ПриЗаписиДокумента</EventSubscription>
