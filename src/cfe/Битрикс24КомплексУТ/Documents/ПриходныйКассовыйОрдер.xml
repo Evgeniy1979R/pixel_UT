@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e99fa5e6-76d9-4fb5-8975-369c963b8f32">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриходныйКассовыйОрдер" category="Object">
+				<xr:TypeId>e02621cd-b264-4e84-8b31-0801f7841d8e</xr:TypeId>
+				<xr:ValueId>0946911b-1160-4a4c-909c-94389eeece96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриходныйКассовыйОрдер" category="Ref">
+				<xr:TypeId>0c2263e7-8a6f-4c84-a88f-8d9c3db3d4a5</xr:TypeId>
+				<xr:ValueId>a06f4540-94b6-4a98-b077-f1bb4e3d343a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриходныйКассовыйОрдер" category="Selection">
+				<xr:TypeId>2c4694ef-5fea-4c80-88d0-79ef61c41127</xr:TypeId>
+				<xr:ValueId>a74b8e56-fbce-4b65-866d-70846cd1460b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриходныйКассовыйОрдер" category="List">
+				<xr:TypeId>ac40b2ab-c1dc-4a82-a0fa-8593e271834a</xr:TypeId>
+				<xr:ValueId>9c02487a-1d12-4ae4-906f-1e28469b5b2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриходныйКассовыйОрдер" category="Manager">
+				<xr:TypeId>44a10893-3525-4f69-b0fb-3f8ffbdf5af8</xr:TypeId>
+				<xr:ValueId>42f4a1e4-f908-4a96-9fac-94ce62806216</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриходныйКассовыйОрдер</Name>
+			<Comment/>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="03fa7e01-736b-431e-abc2-6b22f55c82c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8fc850fe-88fd-4683-a513-195705a61a14">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a38ab9ca-fac1-4f25-ae47-300eef3d58c5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Касса</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ff94bcd0-f7cd-4390-9903-9478c4ad9366">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f8fe5581-819c-4b45-8961-08d0cec4edbd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийСчет</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e2b12722-a031-4f7a-8336-095767edd258">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4b5f75e9-cc5d-43c6-8768-857926d40d1f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатьяДвиженияДенежныхСредств</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="118624af-68d0-4ea6-8487-4fc25954d3a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВТомЧислеНДС</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34985fef-b83d-413d-b032-3955b2d0b420">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a0a936c6-d4d2-483d-9adb-9fe01f5f984e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаКонвертации</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51230244-9982-437f-8718-b75b4f1ce40c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КурсКонвертации</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0d581213-2555-44ed-815d-3cf9be333e1e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34f6f547-5f5d-4f66-ab3a-9fc90579d1f4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7c419fda-7d3a-4d11-b016-f5b17d8e3dc5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2f3269e9-c60c-4993-92bf-9a28555427c8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КратностьКурсаКонвертации</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="63ebee1e-69be-4254-88d5-19eccade0ff2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="12b16ce7-621f-43cb-a8c4-2a78ee192d41">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="82e63bef-d871-4178-a5e0-6276f4e6e030">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>543c3984-43ee-4efd-972f-fc74e8fdae23</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="8a058adb-a2b0-43e0-8d2f-382c61d9a868">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПриходныйКассовыйОрдер.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>3e26626c-ba2f-4b87-bc9d-484656c4954e</xr:TypeId>
+						<xr:ValueId>fd9489b7-5c67-42fa-b870-37dc097e5ea4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриходныйКассовыйОрдер.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>70c8ae36-a303-489b-996d-f0d48d09e637</xr:TypeId>
+						<xr:ValueId>399aa597-d84e-41e9-923e-f39e4f30e872</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="12d403a5-dba3-46ff-9c16-93dc7462b9f5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Партнер</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="deacba70-67b6-434e-9c71-f6142a919643">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СтатьяДвиженияДенежныхСредств</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0ba6077b-357e-4cc9-8001-255c86145ab7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОснованиеПлатежа</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1c827af7-6253-4155-b691-b13c509907b6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаВзаиморасчетов</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e863917b-5822-4aab-a222-00d82c2e75d1">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Подразделение</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ed439525-c1d7-4df6-933e-cf3217b85422">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Организация</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="856f73eb-f376-46c2-8950-c7b3b42d8c2d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НаправлениеДеятельности</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="674fd827-10c7-4b8a-974f-876c4eb66618">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="25079ac3-9dfd-4e60-821a-63e937a2f6ae">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаНДС</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0c4f44bc-d215-4e37-b506-b9dffbfd1bd9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СтавкаНДС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a50cede4-a2a7-470e-a0a4-eb599743123c</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3332f23e-fe7c-45fc-b4c6-0fa0362dc9b7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>10fa07b1-5a87-4461-aa12-363a0e2dcbe0</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

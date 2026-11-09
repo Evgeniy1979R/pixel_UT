@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="5b0cd205-5ea3-4c50-a5d2-3d5324bcee02">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СправкиСПАРКРискиПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>5530faa4-407c-4ae4-8256-f8a23b9e1819</xr:TypeId>
+				<xr:ValueId>536c4403-381b-4354-b726-20691465e5a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СправкиСПАРКРискиПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>3a21ecbd-5518-4582-8c5a-c7d3fe843f0e</xr:TypeId>
+				<xr:ValueId>309cac0b-5cc9-4cce-9a5c-7fc70a379a9d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СправкиСПАРКРискиПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>d0fa4076-df3c-4212-8803-5ffd37e72487</xr:TypeId>
+				<xr:ValueId>2feaf40b-313c-4d17-a32f-2081757ec298</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СправкиСПАРКРискиПрисоединенныеФайлы" category="List">
+				<xr:TypeId>0b9f35e3-0ef3-4a76-8af1-d75a55ac8562</xr:TypeId>
+				<xr:ValueId>e50a817c-058c-440e-b2ac-7d178033c62b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СправкиСПАРКРискиПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>ed03d6d5-6d86-4f0f-be92-b82e7cc68416</xr:TypeId>
+				<xr:ValueId>f09ec7b0-c9ee-420a-ba7d-57ce07af4bd0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СправкиСПАРКРискиПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7391317d-63a6-4ac3-b983-297e29f4fb6a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

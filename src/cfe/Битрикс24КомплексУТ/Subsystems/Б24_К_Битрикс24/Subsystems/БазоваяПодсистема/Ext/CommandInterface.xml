@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandsVisibility>
+		<Command name="CommonCommand.Б24_К_ПодключитьКБитрикс24">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Б24_К_ИдентификаторыОбъектов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.Б24_К_ОтключитьОтБитрикс24">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsOrder>
+		<Command name="CommonCommand.Б24_К_ОбщиеНастройки">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.Б24_К_ПерейтиНаДокументацию">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.Б24_К_ПерейтиНаФорумИнтеграции">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Б24_К_Логирование.Command.Б24_К_ЖурналСинхронизаций">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Б24_К_ЖурналОшибок.Command.ЖурналОшибокСинхронизаций">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.Б24_К_ИдентификаторыОбъектов.Command.ИдентификаторыБитрикс24">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Б24_К_Администрирование.Command.ПроверитьВерсию">
+			<CommandGroup>CommandGroup.Б24_К_Администрирование</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Б24_К_Администрирование.Command.НаписатьТикетВТехподдержку">
+			<CommandGroup>CommandGroup.Б24_К_Администрирование</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Б24_К_Администрирование.Command.ЭкспортДанныхМодуляВФайл">
+			<CommandGroup>CommandGroup.Б24_К_Администрирование</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Б24_К_Администрирование.Command.ИмпортВМодульДанныхИзФайла">
+			<CommandGroup>CommandGroup.Б24_К_Администрирование</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Б24_К_Администрирование.Command.ВыгрузкаИдентификаторовВФайл">
+			<CommandGroup>CommandGroup.Б24_К_Администрирование</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Б24_К_Администрирование.Command.ЗагрузкаИдентификаторовИзФайла">
+			<CommandGroup>CommandGroup.Б24_К_Администрирование</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.Б24_К_Администрирование.Command.СсылкиНаПрикладныеОбъекты">
+			<CommandGroup>CommandGroup.Б24_К_Администрирование</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelTools</Group>
+		<Group>CommandGroup.Б24_К_Администрирование</Group>
+	</GroupsOrder>
+</CommandInterface>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Описание ошибки</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>ChangeHistory</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>Reread</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Write</ExcludedCommand>
+		<ExcludedCommand>WriteAndClose</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКнопкаЗакрыть" id="31">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаКнопкаЗакрытьРасширеннаяПодсказка" id="32"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Получатель" id="1">
+			<DataPath>Запись.Получатель</DataPath>
+			<Visible>false</Visible>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ПолучательКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПолучательРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="НастройкаПодключения" id="4">
+			<DataPath>Запись.НастройкаПодключения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="НастройкаПодключенияКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НастройкаПодключенияРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Операция" id="7">
+			<DataPath>Запись.Операция</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ОперацияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОперацияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="НомерСообщения" id="13">
+			<DataPath>Запись.НомерСообщения</DataPath>
+			<Visible>false</Visible>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="НомерСообщенияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="НомерСообщенияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ВремяЗапуска" id="10">
+			<DataPath>Запись.ВремяЗапуска</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ВремяЗапускаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВремяЗапускаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Сообщение" id="16">
+			<DataPath>Запись.Сообщение</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="СообщениеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="СообщениеРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<CheckBoxField name="Выгружено" id="19">
+			<DataPath>Запись.Просмотрено</DataPath>
+			<Visible>false</Visible>
+			<ReadOnly>true</ReadOnly>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВыгруженоКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ВыгруженоРасширеннаяПодсказка" id="21"/>
+		</CheckBoxField>
+		<InputField name="ТипСообщения" id="22">
+			<DataPath>Запись.ТипСообщения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ТипСообщенияКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ТипСообщенияРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ДатаСообщения" id="25">
+			<DataPath>Запись.ДатаСообщения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ДатаСообщенияКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ДатаСообщенияРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ОписаниеИзмерения" id="28">
+			<DataPath>Запись.ОписаниеИзмерения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ОписаниеИзмеренияКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ОписаниеИзмеренияРасширеннаяПодсказка" id="30"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.Б24_К_ЖурналОшибок</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

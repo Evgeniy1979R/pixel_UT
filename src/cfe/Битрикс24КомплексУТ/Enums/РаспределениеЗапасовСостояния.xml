@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="143f5cbb-7aa7-40e6-9f4e-0badc37cfd79">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РаспределениеЗапасовСостояния" category="Ref">
+				<xr:TypeId>1b53a6c2-1004-45f0-93c9-eeccadb9a02f</xr:TypeId>
+				<xr:ValueId>dba7f349-e3ee-422d-899a-1461ca4a46d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РаспределениеЗапасовСостояния" category="Manager">
+				<xr:TypeId>48d9cf60-1730-4706-b399-a5f0ff293ead</xr:TypeId>
+				<xr:ValueId>ce745469-a483-4aed-b123-769506adc342</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РаспределениеЗапасовСостояния" category="List">
+				<xr:TypeId>b88bb98a-212a-4903-95be-4d92ea24ad40</xr:TypeId>
+				<xr:ValueId>fa049f33-a3da-47b7-803d-095a9aaf0c2a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспределениеЗапасовСостояния</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>545815ed-aef9-41ce-93e4-8bbe4895c3db</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8114ffeb-6558-4bc9-bb6c-cd02f1bdef8b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОстатокНаСкладе</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>47d10a43-5556-4259-bde6-880106968b77</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

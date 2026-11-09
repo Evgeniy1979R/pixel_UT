@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаИзменитьАдресПорталаИдентификаторов" id="28">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.Command.ИзменитьАдресПортала</CommandName>
+				<ExtendedTooltip name="ФормаИзменитьАдресПорталаИдентификаторовРасширеннаяПодсказка" id="29"/>
+			</Button>
+			<Button name="ФормаПерейтиНаИдентификаторыДел" id="30">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.Command.ПерейтиНаИдентификаторыДел</CommandName>
+				<ExtendedTooltip name="ФормаПерейтиНаИдентификаторыДелРасширеннаяПодсказка" id="31"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОбъекты" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа объекты</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбъектыРасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<Table name="Список" id="3">
+					<Representation>Tree</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<DefaultItem>true</DefaultItem>
+					<HorizontalLines>false</HorizontalLines>
+					<VerticalLines>false</VerticalLines>
+					<EnableStartDrag>true</EnableStartDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>Список</DataPath>
+					<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+					<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+					<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+					<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+					<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+						<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+						<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="Объект" id="16">
+							<DataPath>Список.Объект</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<ContextMenu name="ОбъектКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ОбъектРасширеннаяПодсказка" id="18"/>
+						</LabelField>
+						<LabelField name="Идентификатор" id="22">
+							<DataPath>Список.Идентификатор</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор объекта</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ИдентификаторКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="24"/>
+						</LabelField>
+						<LabelField name="ПодчиненныйОбъект" id="25">
+							<DataPath>Список.ПодчиненныйОбъект</DataPath>
+							<Visible>false</Visible>
+							<ContextMenu name="ПодчиненныйОбъектКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ПодчиненныйОбъектРасширеннаяПодсказка" id="27"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДел" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дела</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаДелРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<Table name="ИдентификаторыДел" id="36">
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MaxHeight>4</MaxHeight>
+					<HorizontalLines>false</HorizontalLines>
+					<VerticalLines>false</VerticalLines>
+					<VerticalStretch>false</VerticalStretch>
+					<EnableStartDrag>true</EnableStartDrag>
+					<DataPath>ИдентификаторыДел</DataPath>
+					<RowPictureDataPath>ИдентификаторыДел.DefaultPicture</RowPictureDataPath>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+					<ContextMenu name="ИдентификаторыДелКонтекстноеМеню" id="37">
+						<Autofill>false</Autofill>
+					</ContextMenu>
+					<AutoCommandBar name="ИдентификаторыДелКоманднаяПанель" id="38">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ИдентификаторыДелРасширеннаяПодсказка" id="39"/>
+					<SearchStringAddition name="ИдентификаторыДелСтрокаПоиска" id="40">
+						<AdditionSource>
+							<Item>ИдентификаторыДел</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИдентификаторыДелСтрокаПоискаКонтекстноеМеню" id="41"/>
+						<ExtendedTooltip name="ИдентификаторыДелСтрокаПоискаРасширеннаяПодсказка" id="42"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ИдентификаторыДелСостояниеПросмотра" id="43">
+						<AdditionSource>
+							<Item>ИдентификаторыДел</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИдентификаторыДелСостояниеПросмотраКонтекстноеМеню" id="44"/>
+						<ExtendedTooltip name="ИдентификаторыДелСостояниеПросмотраРасширеннаяПодсказка" id="45"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ИдентификаторыДелУправлениеПоиском" id="46">
+						<AdditionSource>
+							<Item>ИдентификаторыДел</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ИдентификаторыДелУправлениеПоискомКонтекстноеМеню" id="47"/>
+						<ExtendedTooltip name="ИдентификаторыДелУправлениеПоискомРасширеннаяПодсказка" id="48"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ИдентификаторыДелПортал" id="49">
+							<DataPath>ИдентификаторыДел.Портал</DataPath>
+							<Width>10</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ИдентификаторыДелПорталКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="ИдентификаторыДелПорталРасширеннаяПодсказка" id="51"/>
+						</LabelField>
+						<LabelField name="ИдентификаторыДелТипДанных" id="52">
+							<DataPath>ИдентификаторыДел.ТипДанных</DataPath>
+							<ContextMenu name="ИдентификаторыДелТипДанныхКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="ИдентификаторыДелТипДанныхРасширеннаяПодсказка" id="54"/>
+						</LabelField>
+						<LabelField name="ИдентификаторыДелИдентификатор" id="55">
+							<DataPath>ИдентификаторыДел.Идентификатор</DataPath>
+							<ContextMenu name="ИдентификаторыДелИдентификаторКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ИдентификаторыДелИдентификаторРасширеннаяПодсказка" id="57"/>
+						</LabelField>
+						<LabelField name="ИдентификаторыДелДополнительныйИдентификатор" id="58">
+							<DataPath>ИдентификаторыДел.ДополнительныйИдентификатор</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор владельца</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ИдентификаторыДелДополнительныйИдентификаторКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ИдентификаторыДелДополнительныйИдентификаторРасширеннаяПодсказка" id="60"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Б24_К_ИдентификаторыОбъектов.Объект КАК Объект,
+	Б24_К_ИдентификаторыОбъектов.Идентификатор КАК Идентификатор,
+	ВЫБОР
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Компания)
+			ТОГДА "Компания"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Контакт)
+			ТОГДА "Контакт"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Реквизит)
+			ТОГДА "Реквизит"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ФактАдресРеквизита)
+			ТОГДА "Факт адрес реквизита"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЮрАдресРеквизита)
+			ТОГДА "Юр адрес реквизита"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.АдресДоставкиРеквизита)
+			ТОГДА "Адрес доставки реквизита"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.БанковскийСчетРеквизита)
+			ТОГДА "Банковский счет реквизита"   
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Прайс)
+			ТОГДА "Прайс"       
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Склад)
+			ТОГДА "Склад"       
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ГруппаТовара)
+			ТОГДА "Группа товаров v.1"                                                     
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ГруппаТовара2)
+			ТОГДА "Группа товаров"     
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЕдиницаИзмерения)
+			ТОГДА "Единица измерения v.1"  
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЕдиницаИзмерения2)
+			ТОГДА "Единица измерения"  
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Товар)
+			ТОГДА "Товар v.1"  
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Товар2)
+			ТОГДА "Товар"  
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Предложение)
+			ТОГДА "Предложение"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Цена)
+			ТОГДА "Цена"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Остаток)
+			ТОГДА "Остаток"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.КартинкаФайлТовара)
+			ТОГДА "Картинка файл товара v.1"      
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.КартинкаФайлТовара2)
+			ТОГДА "Картинка файл товара"      
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.КартинкаФайлПредложения)
+			ТОГДА "Картинка файл предложения"      
+			         
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Счет)
+			ТОГДА "Счет v.1"   
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.РеквизитыСчета)
+			ТОГДА "Реквизиты счета"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Счет2)
+			ТОГДА "Счет"
+			     
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Сделка)
+			ТОГДА "Сделка"    
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.РеквизитыСделки)
+			ТОГДА "Реквизиты сделки"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ТоварыСделки)
+			ТОГДА "Товары сделки"
+			              
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Заказ)
+			ТОГДА "Заказ"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ТоварыЗаказа)
+			ТОГДА "Товары заказа"                         
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.УказанныеСвойстваЗаказа)
+			ТОГДА "Указанные свойства заказа"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Оплата)
+			ТОГДА "Оплата"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.Отгрузка)
+			ТОГДА "Отгрузка"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ТоварыОтгрузки)
+			ТОГДА "Товары отгрузки"
+	            
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоКомпании)
+			ТОГДА "Свойство компании"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоКонтакта)
+			ТОГДА "Свойство контакта"                 
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоТовара)
+			ТОГДА "Свойство товара v.1"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоТовара2)
+			ТОГДА "Свойство товара"       
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоПредложения)
+			ТОГДА "Свойство предложения"
+			
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоСчета)
+			ТОГДА "Свойство счета v.1"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоСчета2)
+			ТОГДА "Свойство счета"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоСделки)
+			ТОГДА "Свойство сделки"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоЗаказа)
+			ТОГДА "Свойство заказа"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.СвойствоСмартПроцесса)
+			ТОГДА "Свойство смарт процесса"
+			                                                                                                          
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваКомпании)
+			ТОГДА "Значение свойства компании"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваКонтакта)
+			ТОГДА "Значение свойства контакта"                                          
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваТовара)
+			ТОГДА "Значение свойства товара v.1"       
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваТовара2)
+			ТОГДА "Значение свойства товара"                                                      
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваПредложения)
+			ТОГДА "Значение свойства предложения"                                                      
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваСчета)
+			ТОГДА "Значение свойства счета v.1"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваСчета2)
+			ТОГДА "Значение свойства счета"  
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваСделки)
+			ТОГДА "Значение свойства сделки"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваЗаказа)
+			ТОГДА "Значение свойства заказа"   
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ЗначениеСвойстваСмартПроцесса)
+			ТОГДА "Значение свойства смарт процесса"   
+			
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ДелоЛида)
+			ТОГДА "Дело лида"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ДелоКомпании)
+			ТОГДА "Дело компании"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ДелоКонтакта)
+			ТОГДА "Дело контакта"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ДелоСделки)
+			ТОГДА "Дело сделки"
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ДелоСчета)
+			ТОГДА "Дело счета"       
+		КОГДА Б24_К_ИдентификаторыОбъектов.ТипДанных = ЗНАЧЕНИЕ(Перечисление.Б24_К_ТипыДанныхДляОбменаСПорталом.ДелоСмартПроцесса)
+			ТОГДА "Дело Смарт процесса"       
+		ИНАЧЕ ""
+	КОНЕЦ КАК ТипДанных,
+	Б24_К_ИдентификаторыОбъектов.ПодчиненныйОбъект КАК ПодчиненныйОбъект,
+	Б24_К_ИдентификаторыОбъектов.Портал КАК Портал
+ИЗ
+	РегистрСведений.Б24_К_ИдентификаторыОбъектов КАК Б24_К_ИдентификаторыОбъектов</QueryText>
+				<MainTable>InformationRegister.Б24_К_ИдентификаторыОбъектов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Портал</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>ТипДанных</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+						</dcsset:item>
+					</dcsset:item>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ИдентификаторыДел" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификаторы дел</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ИдентификаторыДел.DefaultPicture</Field>
+				<Field>ИдентификаторыДел.ДополнительныйИдентификатор</Field>
+				<Field>ИдентификаторыДел.Идентификатор</Field>
+				<Field>ИдентификаторыДел.ИдентификаторОбъекта</Field>
+				<Field>ИдентификаторыДел.Портал</Field>
+				<Field>ИдентификаторыДел.ТипДанных</Field>
+				<Field>ИдентификаторыДел.ТипОбъекта</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.Б24_К_ИдентификаторыДел</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ИзменитьАдресПортала" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить адрес портала</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменить адрес портала</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИзменитьАдресПортала</Action>
+		</Command>
+		<Command name="ПерейтиНаИдентификаторыДел" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификаторы дел</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перейти на идентификаторы дел</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПерейтиНаИдентификаторыДел</Action>
+		</Command>
+	</Commands>
+</Form>

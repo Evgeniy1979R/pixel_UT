@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="e61d8a36-7576-4d28-8ab0-f922a33c825c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КонтактныеЛицаПартнеров" category="Object">
+				<xr:TypeId>1468e078-04ef-4625-8612-2ccfbc772bf9</xr:TypeId>
+				<xr:ValueId>dfb49edf-771f-4485-acf9-f38698182b30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КонтактныеЛицаПартнеров" category="Ref">
+				<xr:TypeId>6e3c7883-0aab-44d1-aed7-6bc25e5387b7</xr:TypeId>
+				<xr:ValueId>dfc0c09b-1587-43a5-a80e-b35705ae782c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КонтактныеЛицаПартнеров" category="Selection">
+				<xr:TypeId>423207cb-9506-4f53-afd3-a53946832e32</xr:TypeId>
+				<xr:ValueId>4f0350fe-1bd7-41e1-9070-1e184ecce11a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КонтактныеЛицаПартнеров" category="List">
+				<xr:TypeId>d1120cd1-baab-41ce-95a7-e65729b4bf50</xr:TypeId>
+				<xr:ValueId>dbafaa4d-1ed3-4404-ba29-2398646f7bce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КонтактныеЛицаПартнеров" category="Manager">
+				<xr:TypeId>e7cc72f9-5d81-4ae3-81a1-845c791c962c</xr:TypeId>
+				<xr:ValueId>4ca4156e-b0b5-467e-9248-c300e9cb4ced</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КонтактныеЛицаПартнеров</Name>
+			<Comment/>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Партнеры</xr:Item>
+			</Owners>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="40324e89-4a25-42db-94f8-706625e94f3b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7730ff7d-403b-4ff1-9fd3-cddd408591d8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автор</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5cf49a32-c3d0-49be-95c1-fc00f0a79c07">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пол</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51cdb789-3405-485c-94a0-9d5f5313858b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаРождения</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="42ec7735-7a33-4deb-9bef-cd6ffbe7126f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДолжностьПоВизитке</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="8ccb6361-b499-432a-b2e9-c72d2cf83fad">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.КонтактныеЛицаПартнеров.КонтактнаяИнформация" category="TabularSection">
+						<xr:TypeId>16e84623-aa8f-49db-98ea-08c418222430</xr:TypeId>
+						<xr:ValueId>d8b3047c-ed1c-441d-952f-75689a079215</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.КонтактныеЛицаПартнеров.КонтактнаяИнформация" category="TabularSectionRow">
+						<xr:TypeId>efe7cfd2-9957-41a3-8eb7-2369f3870d34</xr:TypeId>
+						<xr:ValueId>3073370d-1e93-42c0-93b0-b592f2b65bfe</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтактнаяИнформация</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ab862949-722c-4996-a44e-1fda44b1816a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Тип</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="55fa56e9-5df9-44f2-a5c8-2c38d1867df7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Вид</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ddb0f50f-7d95-49fb-adc7-370b61532822">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Представление</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="edfbd7f8-73bb-4f07-b902-b7033923e98a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ЗначенияПолей</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f5eb31d4-5657-4f3e-a09c-32a9026f0fea">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АдресЭП</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="862ac61d-cb20-4c89-a813-3f6188c9faae">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерТелефона</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c27f859b-00fc-4245-8fe9-d8acbae3011a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>НомерТелефонаБезКодов</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8e1dbecf-bc6d-4488-867c-c667806c33d7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Значение</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="6daf3186-f05d-41ec-8cbb-11d7622c0a70">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.КонтактныеЛицаПартнеров.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>a536b8d6-4c06-40c5-8751-d7177744954c</xr:TypeId>
+						<xr:ValueId>c5c1981e-1e04-4d17-bb7c-5f1254c52055</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.КонтактныеЛицаПартнеров.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>d26fd911-cd26-46bd-8fd4-056daa947890</xr:TypeId>
+						<xr:ValueId>84db88e5-6927-43ff-8d21-cf97ae406b25</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="12be1b0c-5b16-4356-8def-f6b761d77ec3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Свойство</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="282939e6-37ba-41bb-aef7-e94857f95d07">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Значение</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fc26fb56-cfa7-43a7-ab6c-5593ab11cc9c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ТекстоваяСтрока</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

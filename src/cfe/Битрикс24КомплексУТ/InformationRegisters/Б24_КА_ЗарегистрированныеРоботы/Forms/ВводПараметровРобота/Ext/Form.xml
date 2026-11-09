@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Width>100</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<Group>HorizontalIfPossible</Group>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаКомандаГотово" id="35">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.КомандаГотово</CommandName>
+				<ExtendedTooltip name="ФормаКомандаГотовоРасширеннаяПодсказка" id="36"/>
+			</Button>
+			<Button name="ФормаКомандаОтмена" id="37">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<CommandName>Form.Command.КомандаОтмена</CommandName>
+				<ExtendedTooltip name="ФормаКомандаОтменаРасширеннаяПодсказка" id="38"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаЛеваяЧасть" id="126">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа левая часть</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЛеваяЧастьРасширеннаяПодсказка" id="127"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаВходныеПараметрыРобота" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Входные параметры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа входные параметры робота</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаВходныеПараметрыРоботаРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<Table name="ВходныеПараметрыРобота" id="1">
+							<Representation>List</Representation>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<SearchOnInput>DontUse</SearchOnInput>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ВходныеПараметрыРобота</DataPath>
+							<CommandSet>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ВходныеПараметрыРоботаКонтекстноеМеню" id="2"/>
+							<AutoCommandBar name="ВходныеПараметрыРоботаКоманднаяПанель" id="3">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ВходныеПараметрыРоботаКнопкаДобавить" id="49">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Item.ВходныеПараметрыРобота.StandardCommand.Add</CommandName>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВходныеПараметрыРоботаКнопкаДобавитьРасширеннаяПодсказка" id="50"/>
+									</Button>
+									<Button name="ВходныеПараметрыРоботаКнопкаСкопировать" id="51">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.ВходныеПараметрыРобота.StandardCommand.Copy</CommandName>
+										<Shape>Usual</Shape>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВходныеПараметрыРоботаКнопкаСкопироватьРасширеннаяПодсказка" id="52"/>
+									</Button>
+									<Button name="ВходныеПараметрыРоботаКнопкаИзменить" id="53">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.ВходныеПараметрыРобота.StandardCommand.Change</CommandName>
+										<Shape>Oval</Shape>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВходныеПараметрыРоботаКнопкаИзменитьРасширеннаяПодсказка" id="54"/>
+									</Button>
+									<Button name="ВходныеПараметрыРоботаКнопкаУдалить" id="47">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.ВходныеПараметрыРобота.StandardCommand.Delete</CommandName>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВходныеПараметрыРоботаКнопкаУдалитьРасширеннаяПодсказка" id="48"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ВходныеПараметрыРоботаРасширеннаяПодсказка" id="4"/>
+							<SearchStringAddition name="ВходныеПараметрыРоботаСтрокаПоиска" id="5">
+								<AdditionSource>
+									<Item>ВходныеПараметрыРобота</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВходныеПараметрыРоботаСтрокаПоискаКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="ВходныеПараметрыРоботаСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВходныеПараметрыРоботаСостояниеПросмотра" id="8">
+								<AdditionSource>
+									<Item>ВходныеПараметрыРобота</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВходныеПараметрыРоботаСостояниеПросмотраКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="ВходныеПараметрыРоботаСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВходныеПараметрыРоботаУправлениеПоиском" id="11">
+								<AdditionSource>
+									<Item>ВходныеПараметрыРобота</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВходныеПараметрыРоботаУправлениеПоискомКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ВходныеПараметрыРоботаУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="BeforeAddRow">ПараметрыРоботаПередНачаломДобавления</Event>
+								<Event name="OnActivateCell">ПараметрыРоботаПриАктивизацииЯчейки</Event>
+							</Events>
+							<ChildItems>
+								<ColumnGroup name="ВходныеПараметрыРоботаГруппа3" id="45">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа3</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа3</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ВходныеПараметрыРоботаГруппа3РасширеннаяПодсказка" id="46"/>
+									<ChildItems>
+										<InputField name="ВходныеПараметрыРоботаИмя" id="17">
+											<DataPath>ВходныеПараметрыРобота.Имя</DataPath>
+											<EditMode>Directly</EditMode>
+											<ContextMenu name="ВходныеПараметрыРоботаИмяКонтекстноеМеню" id="18"/>
+											<ExtendedTooltip name="ВходныеПараметрыРоботаИмяРасширеннаяПодсказка" id="19"/>
+										</InputField>
+										<InputField name="ВходныеПараметрыРоботаОписание" id="14">
+											<DataPath>ВходныеПараметрыРобота.Описание</DataPath>
+											<EditMode>Directly</EditMode>
+											<ContextMenu name="ВходныеПараметрыРоботаОписаниеКонтекстноеМеню" id="15"/>
+											<ExtendedTooltip name="ВходныеПараметрыРоботаОписаниеРасширеннаяПодсказка" id="16"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="ВходныеПараметрыРоботаТип" id="20">
+									<DataPath>ВходныеПараметрыРобота.Тип</DataPath>
+									<EditMode>Directly</EditMode>
+									<Width>8</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ListChoiceMode>true</ListChoiceMode>
+									<TextEdit>false</TextEdit>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Да/Нет</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Да/Нет</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дата</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Дата</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дата/Время</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Дата/Время</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Число</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Число</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Целое число</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Целое число</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Список</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Список</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Строка</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Строка</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Текст</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Текст</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Пользователь</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Пользователь</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ВходныеПараметрыРоботаТипКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ВходныеПараметрыРоботаТипРасширеннаяПодсказка" id="22"/>
+									<Events>
+										<Event name="OnChange">ПараметрыРоботаТипПриИзменении</Event>
+									</Events>
+								</InputField>
+								<ColumnGroup name="ВходныеПараметрыРоботаГруппа1" id="41">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа1</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="ВходныеПараметрыРоботаГруппа1РасширеннаяПодсказка" id="42"/>
+									<ChildItems>
+										<InputField name="ВходныеПараметрыРоботаЗначениеПоУмолчанию" id="29">
+											<DataPath>ВходныеПараметрыРобота.ЗначениеПоУмолчанию</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>По умолчанию</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>Directly</EditMode>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ВходныеПараметрыРоботаЗначениеПоУмолчаниюКонтекстноеМеню" id="30"/>
+											<ExtendedTooltip name="ВходныеПараметрыРоботаЗначениеПоУмолчаниюРасширеннаяПодсказка" id="31"/>
+										</InputField>
+										<InputField name="ВходныеПараметрыРоботаЗначенияСписка" id="32">
+											<DataPath>ВходныеПараметрыРобота.ЗначенияСписка</DataPath>
+											<EditMode>Directly</EditMode>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ВходныеПараметрыРоботаЗначенияСпискаКонтекстноеМеню" id="33"/>
+											<ExtendedTooltip name="ВходныеПараметрыРоботаЗначенияСпискаРасширеннаяПодсказка" id="34"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ВходныеПараметрыРоботаГруппа2" id="43">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа2</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа2</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedTooltip name="ВходныеПараметрыРоботаГруппа2РасширеннаяПодсказка" id="44"/>
+									<ChildItems>
+										<CheckBoxField name="ВходныеПараметрыРоботаМножественный" id="26">
+											<DataPath>ВходныеПараметрыРобота.Множественный</DataPath>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Множественный</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>Directly</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ВходныеПараметрыРоботаМножественныйКонтекстноеМеню" id="27"/>
+											<ExtendedTooltip name="ВходныеПараметрыРоботаМножественныйРасширеннаяПодсказка" id="28"/>
+										</CheckBoxField>
+										<CheckBoxField name="ВходныеПараметрыРоботаОбязательный" id="23">
+											<DataPath>ВходныеПараметрыРобота.Обязательный</DataPath>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Обязательный</v8:content>
+												</v8:item>
+											</ToolTip>
+											<EditMode>Directly</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ВходныеПараметрыРоботаОбязательныйКонтекстноеМеню" id="24"/>
+											<ExtendedTooltip name="ВходныеПараметрыРоботаОбязательныйРасширеннаяПодсказка" id="25"/>
+										</CheckBoxField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаВыходныеПараметрыРобота" id="55">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Возвращаемые параметры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа входные параметры робота</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаВыходныеПараметрыРоботаРасширеннаяПодсказка" id="56"/>
+					<ChildItems>
+						<Table name="ВыходныеПараметрыРобота" id="57">
+							<Representation>List</Representation>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<SearchOnInput>DontUse</SearchOnInput>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ВыходныеПараметрыРобота</DataPath>
+							<CommandSet>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+								<ExcludedCommand>SortListAsc</ExcludedCommand>
+								<ExcludedCommand>SortListDesc</ExcludedCommand>
+							</CommandSet>
+							<SearchStringLocation>None</SearchStringLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ВыходныеПараметрыРоботаКонтекстноеМеню" id="58"/>
+							<AutoCommandBar name="ВыходныеПараметрыРоботаКоманднаяПанель" id="59">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="ВыходныеПараметрыРоботаКнопкаДобавить" id="97">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Item.ВыходныеПараметрыРобота.StandardCommand.Add</CommandName>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВыходныеПараметрыРоботаКнопкаДобавитьРасширеннаяПодсказка" id="98"/>
+									</Button>
+									<Button name="ВыходныеПараметрыРоботаКнопкаСкопировать" id="99">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.ВыходныеПараметрыРобота.StandardCommand.Copy</CommandName>
+										<Shape>Usual</Shape>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВыходныеПараметрыРоботаКнопкаСкопироватьРасширеннаяПодсказка" id="100"/>
+									</Button>
+									<Button name="ВыходныеПараметрыРоботаКнопкаИзменить" id="101">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.ВыходныеПараметрыРобота.StandardCommand.Change</CommandName>
+										<Shape>Oval</Shape>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВыходныеПараметрыРоботаКнопкаИзменитьРасширеннаяПодсказка" id="102"/>
+									</Button>
+									<Button name="ВыходныеПараметрыРоботаКнопкаУдалить" id="103">
+										<Type>CommandBarButton</Type>
+										<Representation>Picture</Representation>
+										<CommandName>Form.Item.ВыходныеПараметрыРобота.StandardCommand.Delete</CommandName>
+										<ShapeRepresentation>None</ShapeRepresentation>
+										<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+										<ExtendedTooltip name="ВыходныеПараметрыРоботаКнопкаУдалитьРасширеннаяПодсказка" id="104"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ВыходныеПараметрыРоботаРасширеннаяПодсказка" id="60"/>
+							<SearchStringAddition name="ВыходныеПараметрыРоботаСтрокаПоиска" id="61">
+								<AdditionSource>
+									<Item>ВыходныеПараметрыРобота</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВыходныеПараметрыРоботаСтрокаПоискаКонтекстноеМеню" id="62"/>
+								<ExtendedTooltip name="ВыходныеПараметрыРоботаСтрокаПоискаРасширеннаяПодсказка" id="63"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВыходныеПараметрыРоботаСостояниеПросмотра" id="64">
+								<AdditionSource>
+									<Item>ВыходныеПараметрыРобота</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВыходныеПараметрыРоботаСостояниеПросмотраКонтекстноеМеню" id="65"/>
+								<ExtendedTooltip name="ВыходныеПараметрыРоботаСостояниеПросмотраРасширеннаяПодсказка" id="66"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВыходныеПараметрыРоботаУправлениеПоиском" id="67">
+								<AdditionSource>
+									<Item>ВыходныеПараметрыРобота</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВыходныеПараметрыРоботаУправлениеПоискомКонтекстноеМеню" id="68"/>
+								<ExtendedTooltip name="ВыходныеПараметрыРоботаУправлениеПоискомРасширеннаяПодсказка" id="69"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="BeforeAddRow">ПараметрыРоботаПередНачаломДобавления</Event>
+								<Event name="OnActivateCell">ПараметрыРоботаПриАктивизацииЯчейки</Event>
+							</Events>
+							<ChildItems>
+								<ColumnGroup name="ВыходныеПараметрыРоботаГруппа3" id="70">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выходные параметры робота группа3</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа3</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ВыходныеПараметрыРоботаГруппа3РасширеннаяПодсказка" id="71"/>
+									<ChildItems>
+										<InputField name="ВыходныеПараметрыРоботаИмя" id="108">
+											<DataPath>ВыходныеПараметрыРобота.Имя</DataPath>
+											<EditMode>Directly</EditMode>
+											<ContextMenu name="ВыходныеПараметрыРоботаИмяКонтекстноеМеню" id="109"/>
+											<ExtendedTooltip name="ВыходныеПараметрыРоботаИмяРасширеннаяПодсказка" id="110"/>
+										</InputField>
+										<InputField name="ВыходныеПараметрыРоботаОписание" id="105">
+											<DataPath>ВыходныеПараметрыРобота.Описание</DataPath>
+											<EditMode>Directly</EditMode>
+											<ContextMenu name="ВыходныеПараметрыРоботаОписаниеКонтекстноеМеню" id="106"/>
+											<ExtendedTooltip name="ВыходныеПараметрыРоботаОписаниеРасширеннаяПодсказка" id="107"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<InputField name="ВыходныеПараметрыРоботаТип" id="111">
+									<DataPath>ВыходныеПараметрыРобота.Тип</DataPath>
+									<EditMode>Directly</EditMode>
+									<Width>8</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ListChoiceMode>true</ListChoiceMode>
+									<TextEdit>false</TextEdit>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Да/Нет</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Да/Нет</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дата</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Дата</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дата/Время</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Дата/Время</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Число</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Число</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Целое число</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Целое число</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Список</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Список</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Строка</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Строка</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Текст</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Текст</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Пользователь</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">Пользователь</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ВыходныеПараметрыРоботаТипКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="ВыходныеПараметрыРоботаТипРасширеннаяПодсказка" id="113"/>
+									<Events>
+										<Event name="OnChange">ПараметрыРоботаТипПриИзменении</Event>
+									</Events>
+								</InputField>
+								<ColumnGroup name="ВыходныеПараметрыРоботаГруппа1" id="81">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выходные параметры робота группа1</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ВыходныеПараметрыРоботаГруппа1РасширеннаяПодсказка" id="82"/>
+									<ChildItems>
+										<InputField name="ВыходныеПараметрыРоботаЗначениеПоУмолчанию" id="120">
+											<DataPath>ВыходныеПараметрыРобота.ЗначениеПоУмолчанию</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>По умолчанию</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>Directly</EditMode>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ВыходныеПараметрыРоботаЗначениеПоУмолчаниюКонтекстноеМеню" id="121"/>
+											<ExtendedTooltip name="ВыходныеПараметрыРоботаЗначениеПоУмолчаниюРасширеннаяПодсказка" id="122"/>
+										</InputField>
+										<InputField name="ВыходныеПараметрыРоботаЗначенияСписка" id="123">
+											<DataPath>ВыходныеПараметрыРобота.ЗначенияСписка</DataPath>
+											<EditMode>Directly</EditMode>
+											<Width>12</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ВыходныеПараметрыРоботаЗначенияСпискаКонтекстноеМеню" id="124"/>
+											<ExtendedTooltip name="ВыходныеПараметрыРоботаЗначенияСпискаРасширеннаяПодсказка" id="125"/>
+										</InputField>
+									</ChildItems>
+								</ColumnGroup>
+								<ColumnGroup name="ВыходныеПараметрыРоботаГруппа2" id="89">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выходные параметры робота группа2</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Входные параметры робота группа2</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ВыходныеПараметрыРоботаГруппа2РасширеннаяПодсказка" id="90"/>
+									<ChildItems>
+										<CheckBoxField name="ВыходныеПараметрыРоботаМножественный" id="117">
+											<DataPath>ВыходныеПараметрыРобота.Множественный</DataPath>
+											<EditMode>Directly</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ВыходныеПараметрыРоботаМножественныйКонтекстноеМеню" id="118"/>
+											<ExtendedTooltip name="ВыходныеПараметрыРоботаМножественныйРасширеннаяПодсказка" id="119"/>
+										</CheckBoxField>
+										<CheckBoxField name="ВыходныеПараметрыРоботаОбязательный" id="114">
+											<DataPath>ВыходныеПараметрыРобота.Обязательный</DataPath>
+											<EditMode>Directly</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ВыходныеПараметрыРоботаОбязательныйКонтекстноеМеню" id="115"/>
+											<ExtendedTooltip name="ВыходныеПараметрыРоботаОбязательныйРасширеннаяПодсказка" id="116"/>
+										</CheckBoxField>
+									</ChildItems>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПраваяЧасть" id="128">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа правая часть</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПраваяЧастьРасширеннаяПодсказка" id="129"/>
+			<ChildItems>
+				<InputField name="КодОбработки" id="130">
+					<DataPath>КодОбработки</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код обработки робота</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="КодОбработкиКонтекстноеМеню" id="131"/>
+					<ExtendedTooltip name="КодОбработкиРасширеннаяПодсказка" id="132"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ВходныеПараметрыРобота" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Входные параметры робота</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Описание" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Имя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Тип" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Обязательный" id="4">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Множественный" id="5">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЗначениеПоУмолчанию" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение по умолчанию</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="ЗначенияСписка" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значения списка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ВыходныеПараметрыРобота" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выходные параметры робота</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Описание" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Имя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Тип" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Обязательный" id="4">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Множественный" id="5">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЗначениеПоУмолчанию" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение по умолчанию</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+				<Column name="ЗначенияСписка" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значения списка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueListType</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="КодОбработки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код обработки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоНовый" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это новый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаГотово" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда готово</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаГотово</Action>
+		</Command>
+		<Command name="КомандаОтмена" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда отмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаОтмена</Action>
+		</Command>
+	</Commands>
+</Form>

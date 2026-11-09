@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6506a739-e867-4a6e-9a2d-fbea2dce54f8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыДоговоровКонтрагентов" category="Ref">
+				<xr:TypeId>b3ed115d-2479-424c-9218-cda0d30f5bd7</xr:TypeId>
+				<xr:ValueId>c3a9a031-a38f-47c2-a0ea-e7c97496c512</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыДоговоровКонтрагентов" category="Manager">
+				<xr:TypeId>e50e8d79-ab6d-405c-a26c-27c25a2b8931</xr:TypeId>
+				<xr:ValueId>40ca46a2-7b57-415d-a191-377d8b89b9f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыДоговоровКонтрагентов" category="List">
+				<xr:TypeId>9123acbc-4c36-4579-b5a2-58da889c22b6</xr:TypeId>
+				<xr:ValueId>a070e4be-9078-4e73-ab9e-9d0dc399cd42</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыДоговоровКонтрагентов</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a715ec06-2719-4171-8246-ef94b9f1df26">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Действует</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

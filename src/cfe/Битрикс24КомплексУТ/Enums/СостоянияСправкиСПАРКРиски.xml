@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="9630ce1c-4b31-42ce-b6ec-d5decf679ca3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияСправкиСПАРКРиски" category="Ref">
+				<xr:TypeId>5c2215ea-2d72-4076-84cc-6266adbaaa4b</xr:TypeId>
+				<xr:ValueId>a369b19f-6489-4340-9668-00cf02c729f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияСправкиСПАРКРиски" category="Manager">
+				<xr:TypeId>ec9a1e4e-24ae-405e-85c7-4de20ecc1deb</xr:TypeId>
+				<xr:ValueId>de843fcc-0889-4bad-9044-0b813be286db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияСправкиСПАРКРиски" category="List">
+				<xr:TypeId>2e64c39b-9395-4817-b60f-e1ed5442cba3</xr:TypeId>
+				<xr:ValueId>a73ced19-f8d0-4faa-9cb5-ec15203aa4ca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияСправкиСПАРКРиски</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1e5c1aab-6236-4c9f-a36d-426d28a0c836">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Готовится</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>74161ed5-c23b-4d6b-b116-387084ceaca3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="da40825d-9d9e-435a-803f-92669579b6c0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Получена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>25569130-c0c3-45e8-b749-f4cc66f3f934</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ab1aafb2-c6d3-41f0-ada0-0eb47298837f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеизвестныйИНН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7ddaf224-561c-4056-a577-eb4d974d2196</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4f3e94ea-f92e-4cd2-a02f-fe8089689415">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОшибкаПодготовки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af56bea8-b25a-44db-a087-23932930b091</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

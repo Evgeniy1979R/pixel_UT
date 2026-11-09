@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="627d1bba-dbb7-4574-aead-cdb67dc2abed">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РаспределениеЗапасов" category="Record">
+				<xr:TypeId>6b4879ab-8211-4785-a445-022e10e16404</xr:TypeId>
+				<xr:ValueId>4594667c-6b00-49f3-82fc-ad1dafc88c6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РаспределениеЗапасов" category="Manager">
+				<xr:TypeId>e504a2ca-0f16-4f57-9d62-ea0d7b81c7ea</xr:TypeId>
+				<xr:ValueId>84c909ef-fdcf-4de3-a488-7d2f8cad4b05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РаспределениеЗапасов" category="Selection">
+				<xr:TypeId>81bc25b6-68aa-4e62-b5cf-adfebc887bc7</xr:TypeId>
+				<xr:ValueId>cc047c33-3095-4752-9237-602c8a284ef5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РаспределениеЗапасов" category="List">
+				<xr:TypeId>21689b1a-4997-40fc-bef8-170e9e2214e4</xr:TypeId>
+				<xr:ValueId>dc51f95b-826a-4260-9bf3-408cde0c1992</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РаспределениеЗапасов" category="RecordSet">
+				<xr:TypeId>ebf48c74-e0f6-4c03-b96b-893e7271402b</xr:TypeId>
+				<xr:ValueId>4d9ae1b8-f775-4ad6-b6f8-abdc2bea4310</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РаспределениеЗапасов" category="RecordKey">
+				<xr:TypeId>5321f930-dc6c-4447-9b1d-628a6935b583</xr:TypeId>
+				<xr:ValueId>fd6642f8-635c-492a-9888-c7810b33bca4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РаспределениеЗапасов" category="RecordManager">
+				<xr:TypeId>948524bd-7128-4e48-80e9-2488d87605c7</xr:TypeId>
+				<xr:ValueId>00aa3ed4-66ac-4218-8169-cb9759ca0998</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>RecordSetModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РаспределениеЗапасов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>45342faa-1ece-480b-81d1-d8e80e853d58</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="eb567233-be81-43e7-bb41-3ab04debb957">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b995904b-fb84-46dc-be45-611b8e7384ea</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Resource>
+			<Dimension uuid="8b7f64dd-e42b-4033-ae16-d917cff2ae22">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>071db416-83a1-49bb-8727-0c50e9b7962d</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="06cf84bb-240a-4047-8190-698db4fb4c3d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>908bbc1b-86a0-43c8-b40a-a1c31cf89ac3</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7564bf74-f69b-4f82-8c50-a5b72f3ced79">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7ebc9523-5df4-4dfc-ab70-41061e5b8b4f</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

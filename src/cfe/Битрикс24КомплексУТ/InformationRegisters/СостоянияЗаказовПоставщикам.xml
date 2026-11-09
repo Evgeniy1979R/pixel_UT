@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="d45e16a4-e155-47a8-a8e6-0024c608016c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СостоянияЗаказовПоставщикам" category="Record">
+				<xr:TypeId>2d5b35de-4030-4595-8aa6-9a69bfec17f0</xr:TypeId>
+				<xr:ValueId>f40f58b8-c4dd-440c-8c37-0733a6063fd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СостоянияЗаказовПоставщикам" category="Manager">
+				<xr:TypeId>adab4cba-9075-4e93-a566-a01346cea65a</xr:TypeId>
+				<xr:ValueId>b2321c18-c133-49f8-b280-cb405e103a84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СостоянияЗаказовПоставщикам" category="Selection">
+				<xr:TypeId>4024ed70-a2de-4c23-88e7-a685047bc9a6</xr:TypeId>
+				<xr:ValueId>345ea2f1-b94a-4b44-90a4-23a04b4fd070</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СостоянияЗаказовПоставщикам" category="List">
+				<xr:TypeId>fbbc4dc0-31f9-4e33-927b-f094742f44cb</xr:TypeId>
+				<xr:ValueId>9c31958d-a3be-432b-a01c-f4460910cb5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СостоянияЗаказовПоставщикам" category="RecordSet">
+				<xr:TypeId>8e9acc87-9303-414a-8525-e8e2633f21d2</xr:TypeId>
+				<xr:ValueId>9ea1ac69-1836-4bef-b678-346fef22ddc5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СостоянияЗаказовПоставщикам" category="RecordKey">
+				<xr:TypeId>55131632-7bdf-46a5-9bb0-238e50463ea5</xr:TypeId>
+				<xr:ValueId>16202165-aefe-49e4-827d-e6d265098e73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СостоянияЗаказовПоставщикам" category="RecordManager">
+				<xr:TypeId>331f92d1-028c-4ff5-8572-c86b6abbdc26</xr:TypeId>
+				<xr:ValueId>03eb5310-16fd-4e97-8641-1dfb0e681df6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>RecordSetModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаказовПоставщикам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>68dc1454-631b-45f1-aaa5-388c0b6f5913</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3b1b04c2-6a66-40c8-af0e-963c6fb34e6e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроцентОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a59b1e74-f439-45cb-82f0-8cab30b7fbaf</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5e4e9f9f-d12c-4600-908d-96031282c6e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроцентПоступления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0a2df38a-e025-455e-a10a-a56186efa225</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="2ee2211e-0c45-4c10-b393-6b93a981c9c3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Заказ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>470c0639-596b-4723-ab1a-f7f71938b7f3</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

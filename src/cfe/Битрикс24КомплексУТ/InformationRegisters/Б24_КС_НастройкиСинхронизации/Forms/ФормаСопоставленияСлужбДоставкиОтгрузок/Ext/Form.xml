@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Сопоставление служб доставок</v8:content>
+		</v8:item>
+	</Title>
+	<Width>45</Width>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="СтраницыТипыИсточников" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы типы источников</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыТипыИсточниковРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="Отгрузки" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отгрузки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОтгрузкиРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<RadioButtonField name="ИсточникСлужбДоставкиОтгрузок" id="10">
+							<DataPath>ИсточникСлужбДоставкиОтгрузок</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Источник статусов отгрузок 1С</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Top</TitleLocation>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Способы доставки отгрузок</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">СпособыДоставкиОтгрузок</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Дополнительный реквизит отгрузок</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">СвойствоОтгрузок</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ИсточникСлужбДоставкиОтгрузокКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ИсточникСлужбДоставкиОтгрузокРасширеннаяПодсказка" id="12"/>
+							<Events>
+								<Event name="OnChange">ИсточникСлужбДоставкиОтгрузокПриИзменении</Event>
+							</Events>
+						</RadioButtonField>
+						<Pages name="СтраницыОтгрузка" id="15">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы отгрузка</v8:content>
+								</v8:item>
+							</Title>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="СтраницыОтгрузкаРасширеннаяПодсказка" id="16"/>
+							<ChildItems>
+								<Page name="СтраницаСвойствоОтгрузки" id="19">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница свойство отгрузки</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="СтраницаСвойствоОтгрузкиРасширеннаяПодсказка" id="20"/>
+									<ChildItems>
+										<InputField name="СвойствоОтгрузки" id="30">
+											<DataPath>СвойствоОтгрузки</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доп. реквизит отгрузки</v8:content>
+												</v8:item>
+											</Title>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ChoiceParameters>
+												<app:item name="Отбор.ЭтоДополнительноеСведение">
+													<app:value xsi:type="FormChoiceListDesTimeValue">
+														<Presentation/>
+														<Value xsi:type="xs:boolean">false</Value>
+													</app:value>
+												</app:item>
+											</ChoiceParameters>
+											<ContextMenu name="СвойствоОтгрузкиКонтекстноеМеню" id="31"/>
+											<ExtendedTooltip name="СвойствоОтгрузкиРасширеннаяПодсказка" id="32"/>
+										</InputField>
+										<Table name="СоответствияСЗначениямиСвойствОтгрузки" id="33">
+											<Representation>List</Representation>
+											<HorizontalLines>false</HorizontalLines>
+											<VerticalLines>false</VerticalLines>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>СоответствияСЗначениямиСвойствОтгрузки</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>CancelSearch</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
+												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>SelectAll</ExcludedCommand>
+												<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СоответствияСЗначениямиСвойствОтгрузкиКонтекстноеМеню" id="35"/>
+											<AutoCommandBar name="СоответствияСЗначениямиСвойствОтгрузкиКоманднаяПанель" id="34">
+												<Autofill>false</Autofill>
+												<ChildItems>
+													<Button name="СоответствияСЗначениямиСвойствОтгрузкиЗагрузитьСлужбыДоставкиОтгрузки" id="127">
+														<Type>CommandBarButton</Type>
+														<Representation>Text</Representation>
+														<CommandName>Form.Command.ЗагрузитьСлужбыДоставки</CommandName>
+														<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиЗагрузитьСлужбыДоставкиОтгрузкиРасширеннаяПодсказка" id="128"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиРасширеннаяПодсказка" id="36"/>
+											<SearchStringAddition name="СоответствияСЗначениямиСвойствОтгрузкиСтрокаПоиска" id="37">
+												<AdditionSource>
+													<Item>СоответствияСЗначениямиСвойствОтгрузки</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СоответствияСЗначениямиСвойствОтгрузкиСтрокаПоискаКонтекстноеМеню" id="38"/>
+												<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиСтрокаПоискаРасширеннаяПодсказка" id="39"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СоответствияСЗначениямиСвойствОтгрузкиСостояниеПросмотра" id="43">
+												<AdditionSource>
+													<Item>СоответствияСЗначениямиСвойствОтгрузки</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СоответствияСЗначениямиСвойствОтгрузкиСостояниеПросмотраКонтекстноеМеню" id="44"/>
+												<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиСостояниеПросмотраРасширеннаяПодсказка" id="45"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СоответствияСЗначениямиСвойствОтгрузкиУправлениеПоиском" id="40">
+												<AdditionSource>
+													<Item>СоответствияСЗначениямиСвойствОтгрузки</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СоответствияСЗначениямиСвойствОтгрузкиУправлениеПоискомКонтекстноеМеню" id="41"/>
+												<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиУправлениеПоискомРасширеннаяПодсказка" id="42"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="СоответствияСЗначениямиСвойствОтгрузкиИдСлужбы" id="46">
+													<DataPath>СоответствияСЗначениямиСвойствОтгрузки.ИдСлужбы</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Ид</v8:content>
+														</v8:item>
+													</Title>
+													<Width>3</Width>
+													<ContextMenu name="СоответствияСЗначениямиСвойствОтгрузкиИдСлужбыКонтекстноеМеню" id="47"/>
+													<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиИдСлужбыРасширеннаяПодсказка" id="48"/>
+												</InputField>
+												<InputField name="СоответствияСЗначениямиСвойствОтгрузкиНазваниеСлужбы" id="52">
+													<DataPath>СоответствияСЗначениямиСвойствОтгрузки.НазваниеСлужбы</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<ContextMenu name="СоответствияСЗначениямиСвойствОтгрузкиНазваниеСлужбыКонтекстноеМеню" id="53"/>
+													<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиНазваниеСлужбыРасширеннаяПодсказка" id="54"/>
+												</InputField>
+												<InputField name="СоответствияСЗначениямиСвойствОтгрузкиСлужба" id="49">
+													<DataPath>СоответствияСЗначениямиСвойствОтгрузки.Служба</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>В 1С</v8:content>
+														</v8:item>
+													</Title>
+													<ChoiceParameterLinks>
+														<xr:Link>
+															<xr:Name>Отбор.Владелец</xr:Name>
+															<xr:DataPath xsi:type="xs:string">СвойствоОтгрузки</xr:DataPath>
+															<xr:ValueChange>Clear</xr:ValueChange>
+														</xr:Link>
+													</ChoiceParameterLinks>
+													<ContextMenu name="СоответствияСЗначениямиСвойствОтгрузкиСлужбаКонтекстноеМеню" id="50"/>
+													<ExtendedTooltip name="СоответствияСЗначениямиСвойствОтгрузкиСлужбаРасширеннаяПодсказка" id="51"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаСпособыДоставкиОтгрузки" id="209">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница способы доставки отгрузки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страница способы доставки отгрузки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаСпособыДоставкиОтгрузкиРасширеннаяПодсказка" id="210"/>
+									<ChildItems>
+										<Table name="СоответствияСпособовДоставкиОтгрузки" id="211">
+											<Representation>List</Representation>
+											<ChangeRowOrder>false</ChangeRowOrder>
+											<HorizontalLines>false</HorizontalLines>
+											<VerticalLines>false</VerticalLines>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>СоответствияСпособовДоставкиОтгрузки</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>CancelSearch</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>Delete</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
+												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>SelectAll</ExcludedCommand>
+												<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СоответствияСпособовДоставкиОтгрузкиКонтекстноеМеню" id="212"/>
+											<AutoCommandBar name="СоответствияСпособовДоставкиОтгрузкиКоманднаяПанель" id="213">
+												<ChildItems>
+													<Button name="СоответствияССостояниямиЗаказаЗагрузитьСлужбыДоставкиЗаказа1" id="236">
+														<Type>CommandBarButton</Type>
+														<Representation>Text</Representation>
+														<CommandName>Form.Command.ЗагрузитьСлужбыДоставки</CommandName>
+														<ExtendedTooltip name="СоответствияССостояниямиЗаказаЗагрузитьСлужбыДоставкиЗаказа1РасширеннаяПодсказка" id="237"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СоответствияСпособовДоставкиОтгрузкиРасширеннаяПодсказка" id="214"/>
+											<SearchStringAddition name="СоответствияСпособовДоставкиОтгрузкиСтрокаПоиска" id="215">
+												<AdditionSource>
+													<Item>СоответствияСпособовДоставкиОтгрузки</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СоответствияСпособовДоставкиОтгрузкиСтрокаПоискаКонтекстноеМеню" id="216"/>
+												<ExtendedTooltip name="СоответствияСпособовДоставкиОтгрузкиСтрокаПоискаРасширеннаяПодсказка" id="217"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СоответствияСпособовДоставкиОтгрузкиСостояниеПросмотра" id="218">
+												<AdditionSource>
+													<Item>СоответствияСпособовДоставкиОтгрузки</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СоответствияСпособовДоставкиОтгрузкиСостояниеПросмотраКонтекстноеМеню" id="219"/>
+												<ExtendedTooltip name="СоответствияСпособовДоставкиОтгрузкиСостояниеПросмотраРасширеннаяПодсказка" id="220"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СоответствияСпособовДоставкиОтгрузкиУправлениеПоиском" id="221">
+												<AdditionSource>
+													<Item>СоответствияСпособовДоставкиОтгрузки</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СоответствияСпособовДоставкиОтгрузкиУправлениеПоискомКонтекстноеМеню" id="222"/>
+												<ExtendedTooltip name="СоответствияСпособовДоставкиОтгрузкиУправлениеПоискомРасширеннаяПодсказка" id="223"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="СоответствияСпособовДоставкиЗаказа1ИдСлужбы" id="238">
+													<DataPath>СоответствияСпособовДоставкиОтгрузки.ИдСлужбы</DataPath>
+													<Visible>false</Visible>
+													<EditMode>Directly</EditMode>
+													<ContextMenu name="СоответствияСпособовДоставкиЗаказа1ИдСлужбыКонтекстноеМеню" id="239"/>
+													<ExtendedTooltip name="СоответствияСпособовДоставкиЗаказа1ИдСлужбыРасширеннаяПодсказка" id="240"/>
+												</InputField>
+												<InputField name="СоответствияСпособовДоставкиЗаказа1НазваниеСлужбы" id="241">
+													<DataPath>СоответствияСпособовДоставкиОтгрузки.НазваниеСлужбы</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>Directly</EditMode>
+													<ContextMenu name="СоответствияСпособовДоставкиЗаказа1НазваниеСлужбыКонтекстноеМеню" id="242"/>
+													<ExtendedTooltip name="СоответствияСпособовДоставкиЗаказа1НазваниеСлужбыРасширеннаяПодсказка" id="243"/>
+												</InputField>
+												<InputField name="СоответствияСпособовДоставкиЗаказа1СпособДоставки" id="244">
+													<DataPath>СоответствияСпособовДоставкиОтгрузки.СпособДоставки</DataPath>
+													<EditMode>Directly</EditMode>
+													<ContextMenu name="СоответствияСпособовДоставкиЗаказа1СпособДоставкиКонтекстноеМеню" id="245"/>
+													<ExtendedTooltip name="СоответствияСпособовДоставкиЗаказа1СпособДоставкиРасширеннаяПодсказка" id="246"/>
+												</InputField>
+												<InputField name="СоответствияСпособовДоставкиЗаказа1СлужбаДоставки" id="247">
+													<DataPath>СоответствияСпособовДоставкиОтгрузки.СлужбаДоставки</DataPath>
+													<EditMode>Directly</EditMode>
+													<ContextMenu name="СоответствияСпособовДоставкиЗаказа1СлужбаДоставкиКонтекстноеМеню" id="248"/>
+													<ExtendedTooltip name="СоответствияСпособовДоставкиЗаказа1СлужбаДоставкиРасширеннаяПодсказка" id="249"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<CommandBar name="ГруппаКоманд" id="199">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<HorizontalLocation>Right</HorizontalLocation>
+			<ExtendedTooltip name="ГруппаКомандРасширеннаяПодсказка" id="200"/>
+			<ChildItems>
+				<Button name="Применить" id="201">
+					<Type>CommandBarButton</Type>
+					<Representation>Text</Representation>
+					<DefaultButton>true</DefaultButton>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.Применить</CommandName>
+					<ExtendedTooltip name="ПрименитьРасширеннаяПодсказка" id="202"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НастройкаПодключения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка подключения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Б24_К_НастройкиПодключения</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ИсточникСлужбДоставкиОтгрузок" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник служб доставки отгрузок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СвойствоОтгрузки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойство отгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СоответствияСЗначениямиСвойствОтгрузки" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соответствия с Значениями свойств отгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Columns>
+				<Column name="ИдСлужбы" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ид службы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Служба" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служба</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЗначенияСвойствОбъектов</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НазваниеСлужбы" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Название службы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="НужноЗакрытьОкно" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нужно закрыть окно</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СоответствияСпособовДоставкиОтгрузки" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соответствия способов доставки отгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+			<Columns>
+				<Column name="ИдСлужбы" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ид службы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НазваниеСлужбы" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Название службы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СпособДоставки" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способ доставки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыДоставки</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СлужбаДоставки" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служба доставки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗагрузитьСлужбыДоставки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить с сайта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить службы доставки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьСлужбыДоставки</Action>
+		</Command>
+		<Command name="Применить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Применить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

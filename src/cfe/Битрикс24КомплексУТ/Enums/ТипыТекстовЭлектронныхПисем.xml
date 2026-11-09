@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="50c0087e-a57b-4adc-b1b7-e7274274b924">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыТекстовЭлектронныхПисем" category="Ref">
+				<xr:TypeId>91adf250-9aa3-4f25-81e7-af80c1eed4ee</xr:TypeId>
+				<xr:ValueId>37c5b226-005a-45e9-9644-c9a4c86f7d8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыТекстовЭлектронныхПисем" category="Manager">
+				<xr:TypeId>a6eb0713-4f49-41cd-aa5e-e05aac4aecf0</xr:TypeId>
+				<xr:ValueId>2f00545a-4a99-4a7a-bdb6-56d9224c3b64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыТекстовЭлектронныхПисем" category="List">
+				<xr:TypeId>f0bf775b-7619-4fb0-9154-8b118997d249</xr:TypeId>
+				<xr:ValueId>310bb463-ef1a-48e7-86ee-9a9e16e073d7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыТекстовЭлектронныхПисем</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c0415e06-a628-4ba8-84fd-fcf127140257</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4c40347e-09b6-4fbc-a0b5-6f7476ae9336">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>HTML</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b0ce1a12-6c3e-4f4e-8bbb-590f439919e5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

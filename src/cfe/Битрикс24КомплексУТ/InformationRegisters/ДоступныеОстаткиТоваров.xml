@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="b86ff28e-ace7-4848-a1da-56ffe49c865a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДоступныеОстаткиТоваров" category="Record">
+				<xr:TypeId>571ca511-20e7-48ea-b92e-debaa15fba41</xr:TypeId>
+				<xr:ValueId>4c393538-045d-4e11-bc4f-13f3b5c252b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДоступныеОстаткиТоваров" category="Manager">
+				<xr:TypeId>67511248-3f32-4271-be9f-15ad59fd1ea9</xr:TypeId>
+				<xr:ValueId>be7cd6f4-f454-405f-b251-501002b9e896</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДоступныеОстаткиТоваров" category="Selection">
+				<xr:TypeId>9fe97711-e4b3-43b2-b8f4-e2b4c4c575c3</xr:TypeId>
+				<xr:ValueId>7ae2b489-621a-4949-9582-d838636d98f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДоступныеОстаткиТоваров" category="List">
+				<xr:TypeId>33a509fc-3cd9-451e-8d81-531468ffb130</xr:TypeId>
+				<xr:ValueId>18d20c85-5af0-4883-9034-ac3ae33ec0fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДоступныеОстаткиТоваров" category="RecordSet">
+				<xr:TypeId>15cf43a5-f79b-47b8-bd92-a923f8bcb7ce</xr:TypeId>
+				<xr:ValueId>e2c784bd-44f6-4d78-ba07-785e141ed9f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДоступныеОстаткиТоваров" category="RecordKey">
+				<xr:TypeId>a6f6fdba-5415-4e95-adbc-2d1407c5ab0b</xr:TypeId>
+				<xr:ValueId>a7f4776a-f3cc-4023-8f1d-6f6e9c3e530c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДоступныеОстаткиТоваров" category="RecordManager">
+				<xr:TypeId>6c40f48f-a012-4046-a0f0-c50edd32ad21</xr:TypeId>
+				<xr:ValueId>92107850-8627-42c7-83f3-d39b55b7dd5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДоступныеОстаткиТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>578824a3-d3ba-497a-b09c-098e5ae816b0</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fc510720-f4fd-4550-b134-0c1ed88be6fd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВНаличии</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9279d42e-ec9d-4416-bf47-5c2e82aaade6</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Resource>
+			<Resource uuid="08ebb9d3-9de8-416a-9724-836d20a81bd9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Доступно</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eec78499-5120-410a-9e6d-9cdd3fd719d0</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Resource>
+			<Dimension uuid="af427791-e286-4952-83f9-399f762a00e9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fdcdb7c3-653f-415a-beeb-30d5a24d4f1f</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="c257c3f6-03fd-41d7-8472-52dd85ba626c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4585216b-8c16-4ecc-81f2-3e8f112310bb</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="30c84ba8-8fbe-4c8b-b457-08157f5835e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>be2953d1-b475-483d-a225-b5823d4d25a4</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

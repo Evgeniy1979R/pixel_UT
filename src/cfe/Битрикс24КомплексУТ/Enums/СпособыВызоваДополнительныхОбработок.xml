@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ebc8b6a4-678d-40ae-ae70-48d2bbd2f143">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыВызоваДополнительныхОбработок" category="Ref">
+				<xr:TypeId>e242ef05-30c6-4402-933f-c6a20499a023</xr:TypeId>
+				<xr:ValueId>4b38669e-e69d-4373-9615-9506d114fc68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВызоваДополнительныхОбработок" category="Manager">
+				<xr:TypeId>2c29a5d8-85a1-4c0f-b63b-4268d0b92ce8</xr:TypeId>
+				<xr:ValueId>6b9e1eb6-667b-41dd-a622-abe000602a7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВызоваДополнительныхОбработок" category="List">
+				<xr:TypeId>d140a53f-5774-4b8b-8de0-d37380b06fe1</xr:TypeId>
+				<xr:ValueId>7b323284-8d61-4254-adf5-ed5d79e2935a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыВызоваДополнительныхОбработок</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1d071986-01a6-404f-ae7e-0b6376a9bba4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВызовСерверногоМетода</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
