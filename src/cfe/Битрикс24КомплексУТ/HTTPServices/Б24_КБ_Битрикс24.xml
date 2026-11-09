@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<HTTPService uuid="d187062f-7688-4a6f-bc5b-206d34bb3546">
+		<Properties>
+			<Name>Б24_КБ_Битрикс24</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>(Битрикс24: Интеграция сервисов) Битрикс24</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<RootURL>backoffice_bitrix1ctotal</RootURL>
+			<ReuseSessions>AutoUse</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<URLTemplate uuid="c91ed9f1-db28-4016-aada-b1173fa406f7">
+				<Properties>
+					<Name>push</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Push</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/push</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="544e1c00-6415-46d9-b32c-e85b5b4488d6">
+						<Properties>
+							<Name>Post</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>pushPost</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="ec0fca19-72b0-45d3-a21d-0f660699ed9c">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>pushTest</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="a9faf24a-2e94-4f20-9223-b21ce9da4280">
+				<Properties>
+					<Name>search</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Search</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/search</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="e17cf157-9005-42a7-ac1d-d055a513114b">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>searchTest</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="b5f9a411-cdef-4515-92f1-5b4ea48a6fcc">
+						<Properties>
+							<Name>Post</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>searchPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="9e71c3d2-4a24-4dd1-b41a-e5ea70a44e59">
+				<Properties>
+					<Name>getPin</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get pin</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/getPin</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d9535789-cdd3-42de-9e96-70906c3cd8c2">
+						<Properties>
+							<Name>Test</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Test</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>getPinTest</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="397aebf1-7a3a-4b5b-8f66-f70a3e3148d3">
+						<Properties>
+							<Name>Post</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getPinPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="ae543b9e-8a81-4f0e-9437-d2ba35623225">
+				<Properties>
+					<Name>putPin</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Put pin</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/putPin</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="daf416cb-6f8a-44d8-b45d-dea42142598b">
+						<Properties>
+							<Name>Test</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Test</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>putPinTest</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="f3e0ac60-60ee-402c-9c5c-d1a84d638476">
+						<Properties>
+							<Name>Post</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Post</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>putPinPost</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+		</ChildObjects>
+	</HTTPService>
+</MetaDataObject>

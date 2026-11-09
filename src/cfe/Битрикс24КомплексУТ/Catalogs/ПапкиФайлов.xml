@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="b4b01465-1464-4224-8dcd-9ef31b4ba220">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПапкиФайлов" category="Object">
+				<xr:TypeId>506b5459-588f-406c-9e25-ab31191927c5</xr:TypeId>
+				<xr:ValueId>40839ce2-46dc-4fa3-a193-b2cc65997d27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПапкиФайлов" category="Ref">
+				<xr:TypeId>2e9715c1-dbbb-4145-aada-6ba43fdaf829</xr:TypeId>
+				<xr:ValueId>dc8485df-f3fd-42aa-8d79-1a6d7565fc74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПапкиФайлов" category="Selection">
+				<xr:TypeId>a0a54b1d-3547-44a9-a64c-08778042a12c</xr:TypeId>
+				<xr:ValueId>22bbe05b-ed0f-4f39-8899-2c0f7a236cd3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПапкиФайлов" category="List">
+				<xr:TypeId>e2114ce0-ecd6-495a-bb32-ff8079d1a11e</xr:TypeId>
+				<xr:ValueId>d373c536-3ddc-4fdf-a08b-ad0c9b9f7b1c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПапкиФайлов" category="Manager">
+				<xr:TypeId>d089e454-3cf4-4ecc-b03a-f2d037ab7401</xr:TypeId>
+				<xr:ValueId>76432289-cf51-4851-bd92-a1475a77d388</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПапкиФайлов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>93701593-5ac8-4266-b471-7e9ed35a9c3e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="aa7de0dd-2f1a-4ccb-8d60-37bd774a09e5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Описание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0fdb864e-ede9-4777-835c-0804968ee544</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

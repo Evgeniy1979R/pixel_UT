@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="e51e899e-98ed-46dd-ba29-fe1838464b93">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НоменклатураПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>91481cb7-b341-4ee2-bb52-7e80a8cedd90</xr:TypeId>
+				<xr:ValueId>bdda1bb1-5c96-4091-8311-e15a11d81a01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НоменклатураПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>0a311a82-2171-4cba-addd-38bb19863245</xr:TypeId>
+				<xr:ValueId>03d8fe1e-5349-4812-a7c9-cc743709daa4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НоменклатураПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>1dc7d22a-4e53-43d9-911a-1cb292cb42c0</xr:TypeId>
+				<xr:ValueId>ea2de5f8-c447-4a60-85a4-04b531840d4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НоменклатураПрисоединенныеФайлы" category="List">
+				<xr:TypeId>44d7eb13-ab42-489b-9452-28e83a2c6adf</xr:TypeId>
+				<xr:ValueId>81fc8032-44d1-4136-97fd-acf61631134d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НоменклатураПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>f4975cb2-10c7-411a-9cc2-9e5216554d2f</xr:TypeId>
+				<xr:ValueId>64cd5705-71f9-403d-8423-dfd8091f9c84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НоменклатураПрисоединенныеФайлы</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0c4d0b86-2590-4a29-bc44-6b7cb7db5489">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипХраненияФайла</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7cf3fe07-c32f-420f-a469-33c604482f5c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Расширение</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e015d4bd-627a-40fe-9137-76d715c45f36">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Описание</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5bb419eb-234f-480a-9010-8d2af44eb428">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВладелецФайла</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e8ac1ea-0119-41b8-a0f5-259822022230">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСоздания</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="df852447-b80b-425d-aa1a-8a8d2a32bdb8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Том</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="05fecf4e-043e-4ac3-b8d9-ec2f0a2a4ecc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПутьКФайлу</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

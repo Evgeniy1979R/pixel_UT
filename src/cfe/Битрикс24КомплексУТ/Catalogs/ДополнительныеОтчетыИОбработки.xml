@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="4227aaff-a795-4fd6-b693-ce55bc2c9a30">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДополнительныеОтчетыИОбработки" category="Object">
+				<xr:TypeId>b9f20af5-92fb-4483-bfd9-38b54a40436d</xr:TypeId>
+				<xr:ValueId>14b0a650-3b6a-4c4f-b111-d0810ec27d01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДополнительныеОтчетыИОбработки" category="Ref">
+				<xr:TypeId>c061db64-a42e-47ab-8180-845891fc75e8</xr:TypeId>
+				<xr:ValueId>71d4ca51-28b7-4e8c-8f6d-ef2a51571fbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДополнительныеОтчетыИОбработки" category="Selection">
+				<xr:TypeId>ad71cc35-c5bc-4aaa-a85a-e3c1dad80c87</xr:TypeId>
+				<xr:ValueId>2d90ea06-8192-4288-8904-21284c0253f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДополнительныеОтчетыИОбработки" category="List">
+				<xr:TypeId>cf39510f-da95-49a8-9ad7-8ae7e8a6e333</xr:TypeId>
+				<xr:ValueId>fbf1e6b5-db3b-41f0-98a3-2e8bdf9d7e95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДополнительныеОтчетыИОбработки" category="Manager">
+				<xr:TypeId>93020258-4da6-465f-937c-bfaa5973a63c</xr:TypeId>
+				<xr:ValueId>ee41a57b-bbe6-4521-ade4-81771c7f513f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДополнительныеОтчетыИОбработки</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b375d079-c802-482e-9f1b-40ce4a912b92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Публикация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="149cf342-20d6-4a19-bb24-1870d9e10ec3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БезопасныйРежим</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ec032c0e-d5be-4004-9079-27a4e3098280">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Вид</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fffa06cb-40b7-4935-b891-757acb10426f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Версия</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="13e41d1a-a3f1-4235-adcb-a6eea206dc56">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИмяОбъекта</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6e572bb9-e0ad-4a36-a261-6e655881c21e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИмяФайла</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e6f1e365-bdae-469b-ab8a-0917cf33456a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РежимСовместимостиРазрешений</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ac033124-6f48-4744-9788-0b1956785ce8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Информация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a794cb6-d4ea-4210-b693-0a35eb28d190">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХранилищеОбработки</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c4ddecfc-cb09-4e3f-8adf-7aef539d9d4c">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ДополнительныеОтчетыИОбработки.Команды" category="TabularSection">
+						<xr:TypeId>58cda288-dac2-4920-955c-6e3de5b105ac</xr:TypeId>
+						<xr:ValueId>57e342b2-fdbc-45bc-af75-0f4e15d7f702</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ДополнительныеОтчетыИОбработки.Команды" category="TabularSectionRow">
+						<xr:TypeId>940296ca-a9e5-4c09-9d1f-dcb48ed0deab</xr:TypeId>
+						<xr:ValueId>8744725f-5d63-48b9-ab7c-96604ff88e5b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Команды</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4ef6f67e-4ccd-4e4f-9130-bcf8b0ea3663">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Идентификатор</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="967ec3b3-4ead-4cbd-a3cb-5957971e5082">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ВариантЗапуска</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0e91962f-3d1e-4e9e-99f4-264c5b2962b5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Представление</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="06d41864-1357-4562-8f02-b79ab1e7f38b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>РегламентноеЗаданиеGUID</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

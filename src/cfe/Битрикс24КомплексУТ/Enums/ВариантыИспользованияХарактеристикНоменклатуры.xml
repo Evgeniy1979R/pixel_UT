@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="473c14e8-8925-475d-bc48-e0322b9c434c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыИспользованияХарактеристикНоменклатуры" category="Ref">
+				<xr:TypeId>fabb456c-32d9-4bae-abc7-4278b907b54f</xr:TypeId>
+				<xr:ValueId>65f798a5-a572-420f-987a-d4fb133eb332</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыИспользованияХарактеристикНоменклатуры" category="Manager">
+				<xr:TypeId>9bda39fa-aa9d-41ac-ae2c-6e61e3744cfa</xr:TypeId>
+				<xr:ValueId>14d1825a-092e-4181-8cc3-ea625d8b8993</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыИспользованияХарактеристикНоменклатуры" category="List">
+				<xr:TypeId>785eb7a7-752e-4472-af2c-842698110e51</xr:TypeId>
+				<xr:ValueId>dfd312e6-a760-4ae7-b686-c740c3b43b80</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыИспользованияХарактеристикНоменклатуры</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="06690c80-bfd1-4d68-99a8-541838f00304">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеИспользовать</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1235ed53-869a-49d5-b2e6-ba752c364668">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбщиеДляВидаНоменклатуры</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a705f9d5-5b5c-4e02-b273-0249ba5aa1f8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИндивидуальныеДляНоменклатуры</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="994ee2ec-6a6c-4e9a-943b-ddfd6e50dd80">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбщиеСДругимВидомНоменклатуры</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

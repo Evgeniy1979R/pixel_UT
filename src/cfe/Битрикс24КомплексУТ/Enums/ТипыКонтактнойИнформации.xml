@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="b9d0bdb6-a21e-4a37-a2d1-8070b8045b4d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыКонтактнойИнформации" category="Ref">
+				<xr:TypeId>9d7902e2-d16f-4513-8562-f62866e3fec9</xr:TypeId>
+				<xr:ValueId>03a22b9e-42fa-4638-9282-6121876cf54a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыКонтактнойИнформации" category="Manager">
+				<xr:TypeId>432483f7-1c16-43db-8b11-331a2fa7a01b</xr:TypeId>
+				<xr:ValueId>c1cd846b-e136-4f1d-988f-fdcb59006b32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыКонтактнойИнформации" category="List">
+				<xr:TypeId>36acbf10-0f71-4dd5-86df-a20c76c172db</xr:TypeId>
+				<xr:ValueId>c34b1e3f-b54e-4db6-b736-0679d026db43</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыКонтактнойИнформации</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1a6b8089-ffc6-43e5-b2d2-f2e8f6dbe22e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Адрес</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c67a491a-6307-4647-83a9-290b8fe148f4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Телефон</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bc851bf5-d236-4d3c-bf7e-d1db295f7301">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресЭлектроннойПочты</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

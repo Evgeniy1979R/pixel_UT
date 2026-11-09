@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="dd7392df-c4bd-4991-97e3-5f5fc4bfb8af">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.Б24_КС_ПомощникРучногоСлиянияДанных" category="Object">
+				<xr:TypeId>3ae6c5b8-134c-4af6-88a8-4a2ee314ee6a</xr:TypeId>
+				<xr:ValueId>771e358d-ba35-4670-aba8-545604d60fef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.Б24_КС_ПомощникРучногоСлиянияДанных" category="Manager">
+				<xr:TypeId>0e22570d-3a2d-458e-9d26-59f9840e8152</xr:TypeId>
+				<xr:ValueId>1670c846-59e9-4c99-87ff-44ff45720be7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Б24_КС_ПомощникРучногоСлиянияДанных</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>(Битрикс24.1С:Комплексная) Помощник ручного слияния данных</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<DefaultForm>DataProcessor.Б24_КС_ПомощникРучногоСлиянияДанных.Form.ОсновнаяФорма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<ExtendedPresentation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Помощник ручного слияния данных</v8:content>
+				</v8:item>
+			</ExtendedPresentation>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>ОсновнаяФорма</Form>
+			<Form>КонтактыКомпании</Form>
+			<Form>ДополнительныеПоля</Form>
+			<Form>СвойстваТоваровИПредложений</Form>
+			<Form>ЕдиницыИзмерения</Form>
+			<Form>Прайсы</Form>
+			<Form>Разделы</Form>
+			<Form>Товары</Form>
+			<Form>Предложения</Form>
+			<Form>ФормаВыбораПакетов</Form>
+			<Form>СмартПроцессы</Form>
+			<Form>СмартПроцессыСопоставлениеСущностей</Form>
+			<Command uuid="bb2bd458-d214-421d-99e3-25adb7da53d7">
+				<Properties>
+					<Name>ПомощникРучногоСлиянияДанных</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Помощник ручного слияния данных</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>ActionsPanelTools</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

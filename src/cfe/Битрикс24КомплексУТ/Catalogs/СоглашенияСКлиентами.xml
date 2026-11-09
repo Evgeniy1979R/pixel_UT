@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c60e841c-7120-45ec-bd09-de6cc938d22d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СоглашенияСКлиентами" category="Object">
+				<xr:TypeId>2636acf4-e47e-4109-9e8c-c1f35b1ee2e1</xr:TypeId>
+				<xr:ValueId>806f690b-19f8-41e2-96fd-f411162d8941</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СоглашенияСКлиентами" category="Ref">
+				<xr:TypeId>c1d580dd-eec5-427f-b726-a2f3c45076e0</xr:TypeId>
+				<xr:ValueId>c73baa94-eabb-4048-ba9d-509610dadaf1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СоглашенияСКлиентами" category="Selection">
+				<xr:TypeId>09141403-cb0b-48bc-8df4-75c934612fbc</xr:TypeId>
+				<xr:ValueId>cffaf6ae-939b-4bfa-9724-8566c3815c78</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СоглашенияСКлиентами" category="List">
+				<xr:TypeId>8d39e1b7-2955-44ff-a002-07d18fa8b84b</xr:TypeId>
+				<xr:ValueId>0d69017d-487e-4a23-8500-d23370b2ddc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СоглашенияСКлиентами" category="Manager">
+				<xr:TypeId>5aa60105-91f5-4f49-9522-c8aa851c844a</xr:TypeId>
+				<xr:ValueId>a3b75c0c-875f-4f37-b848-c3db2b925a64</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СоглашенияСКлиентами</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="62b64fd6-d207-4421-81c0-7b853b105043">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПорядокРасчетов</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3dd93c62-9132-44c5-9741-9fef3184d370">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФормаОплаты</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3b633bf5-c09a-428b-bd45-0d2aa6cb45d0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаправлениеДеятельности</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

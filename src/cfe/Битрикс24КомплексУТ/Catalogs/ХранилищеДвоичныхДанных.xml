@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="3095aba8-0f51-4f17-87d5-7ff33ea43df3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ХранилищеДвоичныхДанных" category="Object">
+				<xr:TypeId>ad938a0c-dab9-43eb-a3cb-0a96217bd11b</xr:TypeId>
+				<xr:ValueId>ff10dc59-0aa7-4e63-972e-1ffb42b32663</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ХранилищеДвоичныхДанных" category="Ref">
+				<xr:TypeId>120200f2-96fa-4eff-8202-d0a8dcdb543b</xr:TypeId>
+				<xr:ValueId>f5b9fc9c-620b-4938-8014-fa12a1b18296</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ХранилищеДвоичныхДанных" category="Selection">
+				<xr:TypeId>ac0c7a80-9649-4ee7-a6d5-485fe2ddb2ae</xr:TypeId>
+				<xr:ValueId>49252a58-e2da-4857-839a-54923c77db45</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ХранилищеДвоичныхДанных" category="List">
+				<xr:TypeId>4bb402b0-c0d8-4aee-8c27-02116029ce09</xr:TypeId>
+				<xr:ValueId>1f656b03-876f-4a58-8f30-69a6609584fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ХранилищеДвоичныхДанных" category="Manager">
+				<xr:TypeId>c63e660b-442e-4b20-8a80-14efe535e1dc</xr:TypeId>
+				<xr:ValueId>9e47968c-85f3-4fd1-9769-cd38d6fcb2b3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХранилищеДвоичныхДанных</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bf1ab189-634d-4b31-82e3-35fb15305da9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1ec5c137-9a1b-4008-b5cf-59ae40b8a88a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДвоичныеДанные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c2a8f4a7-882a-4262-ad9d-0f8ad9821488</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

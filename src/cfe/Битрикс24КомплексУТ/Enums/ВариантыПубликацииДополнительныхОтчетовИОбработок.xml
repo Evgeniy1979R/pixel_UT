@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="05706918-6e40-4043-8ee4-4fef06d89fd3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыПубликацииДополнительныхОтчетовИОбработок" category="Ref">
+				<xr:TypeId>de08cf34-7b90-4ef2-b351-246ce5c08c6a</xr:TypeId>
+				<xr:ValueId>9b87b04e-14bd-4a39-a978-40aa0016919e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыПубликацииДополнительныхОтчетовИОбработок" category="Manager">
+				<xr:TypeId>4665f364-dca3-442c-8672-6f7656adc623</xr:TypeId>
+				<xr:ValueId>2bac616c-7cf7-4139-a197-6b53197fa533</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыПубликацииДополнительныхОтчетовИОбработок" category="List">
+				<xr:TypeId>31ef9c99-5760-48cc-8791-039f58acd57b</xr:TypeId>
+				<xr:ValueId>026e1834-1986-429a-907d-a858c439a3c0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыПубликацииДополнительныхОтчетовИОбработок</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="05cba968-cf3c-444d-a664-1b3456b4eddf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Используется</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

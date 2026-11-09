@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="d143b39a-d945-41c6-bb32-9ad7dda7149a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АналитикаУчетаПоПартнерам" category="Record">
+				<xr:TypeId>2f998b0b-df0a-424d-9a3e-79fe59551a3f</xr:TypeId>
+				<xr:ValueId>9f890842-746f-4e40-a126-f800eb9adea2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АналитикаУчетаПоПартнерам" category="Manager">
+				<xr:TypeId>d47e3ed5-5f90-4137-a80e-53fd1859be64</xr:TypeId>
+				<xr:ValueId>88dd36d1-8e68-4b5a-8fbc-994a76f3e645</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АналитикаУчетаПоПартнерам" category="Selection">
+				<xr:TypeId>02682ded-1e2c-4574-9a87-28b8fd901f9b</xr:TypeId>
+				<xr:ValueId>bc4675eb-64d6-4d9d-abd2-48585833202d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АналитикаУчетаПоПартнерам" category="List">
+				<xr:TypeId>cac49ea1-2536-4c0e-a541-9156550b339a</xr:TypeId>
+				<xr:ValueId>26392e42-ead8-47f2-821c-0ff1bd5f4a85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АналитикаУчетаПоПартнерам" category="RecordSet">
+				<xr:TypeId>2ae89e26-ec09-4968-9054-ed1b8288283e</xr:TypeId>
+				<xr:ValueId>0e41d438-72c8-4604-a6b5-83a56fa2f458</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АналитикаУчетаПоПартнерам" category="RecordKey">
+				<xr:TypeId>8d2503c8-9fa4-48d9-99e4-2939ecdcabf0</xr:TypeId>
+				<xr:ValueId>5945328d-97ac-4cc2-bb30-8be3af0d895d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АналитикаУчетаПоПартнерам" category="RecordManager">
+				<xr:TypeId>83f16290-e86c-4986-ae23-424d27a5c010</xr:TypeId>
+				<xr:ValueId>7c083fa4-bc6f-412b-94fb-08cdc3591a50</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АналитикаУчетаПоПартнерам</Name>
+			<Comment/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="236f73c6-7e30-4b9b-bdb9-f33b301db5a8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КлючАналитики</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Resource>
+			<Dimension uuid="a7947622-c6ae-4bbc-9f27-82ab3d9306db">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

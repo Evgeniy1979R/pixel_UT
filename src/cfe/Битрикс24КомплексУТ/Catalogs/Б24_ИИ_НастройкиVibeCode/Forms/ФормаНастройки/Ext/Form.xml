@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<SaveWindowSettings>false</SaveWindowSettings>
+	<AutoFillCheck>false</AutoFillCheck>
+	<Customizable>false</Customizable>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="КнопкаПерезапуститьЗадание" id="231">
+				<Type>UsualButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.Command.ПерезапуститьЗадание</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Refresh</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="КнопкаПерезапуститьЗаданиеРасширеннаяПодсказка" id="232"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="132">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="133"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапка1" id="154">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка1</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапка1РасширеннаяПодсказка" id="155"/>
+					<ChildItems>
+						<InputField name="НаименованиеПоле" id="29">
+							<DataPath>Объект.Description</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование</v8:content>
+								</v8:item>
+							</Title>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderHorizontalAlign>Auto</HeaderHorizontalAlign>
+							<ShowInFooter>false</ShowInFooter>
+							<Wrap>false</Wrap>
+							<TypeDomainEnabled>false</TypeDomainEnabled>
+							<ContextMenu name="НаименованиеПолеКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="НаименованиеПолеРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<CheckBoxField name="ИспользованиеПоле" id="32">
+							<DataPath>Объект.Использование</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использование</v8:content>
+								</v8:item>
+							</Title>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderHorizontalAlign>Auto</HeaderHorizontalAlign>
+							<ShowInFooter>false</ShowInFooter>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользованиеПолеКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="ИспользованиеПолеРасширеннаяПодсказка" id="33"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОбщая" id="120">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры подключения к порталу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГруппаОбщаяРасширеннаяПодсказка" id="121"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаРежимИД" id="220">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРежимИДРасширеннаяПодсказка" id="221"/>
+					<ChildItems>
+						<RadioButtonField name="РежимПоле" id="26">
+							<DataPath>Объект.Режим</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Режим</v8:content>
+								</v8:item>
+							</Title>
+							<RadioButtonType>Tumbler</RadioButtonType>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>HTTP</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">http</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Push-Pull</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:string">pushpull</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="РежимПолеКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="РежимПолеРасширеннаяПодсказка" id="27"/>
+							<Events>
+								<Event name="OnChange">РежимПриИзменении</Event>
+							</Events>
+						</RadioButtonField>
+						<LabelDecoration name="ИДСсылка" id="208">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ИД</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ИДСсылкаКонтекстноеМеню" id="210"/>
+							<ExtendedTooltip name="ИДСсылкаРасширеннаяПодсказка" id="209"/>
+							<Events>
+								<Event name="Click">ИДСсылкаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ПояснениеИД" id="200">
+							<Font ref="style:NormalTextFont" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ИД в VibeCode: 1С отправляет его как instanceId (заголовок X-Onec-Instance-Id и тело POST /connect) и как settingsGuid (ответ listUsers). У новой настройки заполняется автоматически, при копировании создаётся новый. Меняйте, только если база должна быть зарегистрирована как новое подключение.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+							<ContextMenu name="ПояснениеИДКонтекстноеМеню" id="202"/>
+							<ExtendedTooltip name="ПояснениеИДРасширеннаяПодсказка" id="201"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПубликация" id="173">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Публикация 1С</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаПубликацияРасширеннаяПодсказка" id="174"/>
+					<ChildItems>
+						<InputField name="АдресПубликацииПоле" id="44">
+							<DataPath>Объект.АдресПубликации</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Адрес 1С публикации</v8:content>
+								</v8:item>
+							</Title>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderHorizontalAlign>Auto</HeaderHorizontalAlign>
+							<ShowInFooter>false</ShowInFooter>
+							<Wrap>false</Wrap>
+							<ContextMenu name="АдресПубликацииПолеКонтекстноеМеню" id="46"/>
+							<ExtendedTooltip name="АдресПубликацииПолеРасширеннаяПодсказка" id="45"/>
+							<Events>
+								<Event name="OnChange">АдресПубликацииПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ПользовательПубликацииПоле" id="41">
+							<DataPath>Объект.ПользовательПубликации</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пользователь 1С</v8:content>
+								</v8:item>
+							</Title>
+							<ShowInHeader>false</ShowInHeader>
+							<HeaderHorizontalAlign>Auto</HeaderHorizontalAlign>
+							<ShowInFooter>false</ShowInFooter>
+							<Wrap>false</Wrap>
+							<ContextMenu name="ПользовательПубликацииПолеКонтекстноеМеню" id="43"/>
+							<ExtendedTooltip name="ПользовательПубликацииПолеРасширеннаяПодсказка" id="42"/>
+							<Events>
+								<Event name="OnChange">ПользовательПубликацииПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="ПояснениеПубликации" id="175">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Публикация 1С не нужна: в режиме Push-Pull база сама опрашивает портал</v8:content>
+						</v8:item>
+					</Title>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<ContextMenu name="ПояснениеПубликацииКонтекстноеМеню" id="233"/>
+					<ExtendedTooltip name="ПояснениеПубликацииРасширеннаяПодсказка" id="176"/>
+				</LabelDecoration>
+				<UsualGroup name="ГруппаСостояние" id="179">
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСостояниеРасширеннаяПодсказка" id="180"/>
+					<ChildItems>
+						<Button name="КнопкаПодключить" id="52">
+							<Type>UsualButton</Type>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<PlacementArea>mainCmdsLeft</PlacementArea>
+							<CommandName>Form.Command.Подключить</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подключить</v8:content>
+								</v8:item>
+							</Title>
+							<RepresentationInContextMenu>None</RepresentationInContextMenu>
+							<ExtendedTooltip name="КнопкаПодключитьРасширеннаяПодсказка" id="53"/>
+						</Button>
+						<LabelDecoration name="СостояниеПодключения" id="177">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Состояние подключения</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<ContextMenu name="СостояниеПодключенияКонтекстноеМеню" id="234"/>
+							<ExtendedTooltip name="СостояниеПодключенияРасширеннаяПодсказка" id="178"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРазрешенныеПользователи" id="150">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разрешенные пользователи</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<ExtendedTooltip name="ГруппаРазрешенныеПользователиРасширеннаяПодсказка" id="151"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаЛевая" id="122">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа левая</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа левая</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЛеваяРасширеннаяПодсказка" id="123"/>
+					<ChildItems>
+						<CheckBoxField name="ВсеПользователиПоле" id="161">
+							<DataPath>Объект.ВсеПользователи</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Включить отбор по пользователям</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВсеПользователиПолеКонтекстноеМеню" id="163"/>
+							<ExtendedTooltip name="ВсеПользователиПолеРасширеннаяПодсказка" id="162"/>
+							<Events>
+								<Event name="OnChange">ВсеПользователиПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<LabelDecoration name="ИнформацияООтбореПользователей" id="158">
+							<Font ref="style:NormalTextFont" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если галка не установлена, то выгружаются все пользователи</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ИнформацияООтбореПользователейКонтекстноеМеню" id="159"/>
+							<ExtendedTooltip name="ИнформацияООтбореПользователейРасширеннаяПодсказка" id="160"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТаблицаПользователи" id="181">
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТаблицаПользователиРасширеннаяПодсказка" id="182"/>
+					<ChildItems>
+						<Table name="ТаблицаПользователи" id="58">
+							<Representation>List</Representation>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<AutoMaxRowsCount>false</AutoMaxRowsCount>
+							<SelectionMode>SingleRow</SelectionMode>
+							<Header>false</Header>
+							<HeaderHeight>0</HeaderHeight>
+							<FooterHeight>0</FooterHeight>
+							<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+							<VerticalScrollBar>DontUse</VerticalScrollBar>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<SearchOnInput>Use</SearchOnInput>
+							<InitialListView>Beginning</InitialListView>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.Пользователи</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТаблицаПользователиКонтекстноеМеню" id="79"/>
+							<AutoCommandBar name="ТаблицаПользователиКоманднаяПанель" id="80"/>
+							<ExtendedTooltip name="ТаблицаПользователиРасширеннаяПодсказка" id="81"/>
+							<SearchStringAddition name="ТаблицаПользователиСтрокаПоиска" id="82">
+								<AdditionSource>
+									<Item>ТаблицаПользователи</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаПользователиСтрокаПоискаКонтекстноеМеню" id="83"/>
+								<ExtendedTooltip name="ТаблицаПользователиСтрокаПоискаРасширеннаяПодсказка" id="84"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТаблицаПользователиСостояниеПросмотра" id="85">
+								<AdditionSource>
+									<Item>ТаблицаПользователи</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаПользователиСостояниеПросмотраКонтекстноеМеню" id="86"/>
+								<ExtendedTooltip name="ТаблицаПользователиСостояниеПросмотраРасширеннаяПодсказка" id="87"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТаблицаПользователиУправлениеПоиском" id="88">
+								<AdditionSource>
+									<Item>ТаблицаПользователи</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаПользователиУправлениеПоискомКонтекстноеМеню" id="89"/>
+								<ExtendedTooltip name="ТаблицаПользователиУправлениеПоискомРасширеннаяПодсказка" id="90"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ПолеПользователь" id="59">
+									<DataPath>Объект.Пользователи.Пользователь</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пользователь</v8:content>
+										</v8:item>
+									</Title>
+									<ShowInHeader>false</ShowInHeader>
+									<HeaderHorizontalAlign>Auto</HeaderHorizontalAlign>
+									<ShowInFooter>false</ShowInFooter>
+									<Wrap>false</Wrap>
+									<ContextMenu name="ПолеПользовательКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="ПолеПользовательРасширеннаяПодсказка" id="60"/>
+									<Events>
+										<Event name="OnChange">ПолеПользовательПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПолеГуид" id="65">
+									<DataPath>Объект.Пользователи.Гуид</DataPath>
+									<Visible>false</Visible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>GUID</v8:content>
+										</v8:item>
+									</Title>
+									<ShowInHeader>false</ShowInHeader>
+									<HeaderHorizontalAlign>Auto</HeaderHorizontalAlign>
+									<ShowInFooter>false</ShowInFooter>
+									<Wrap>false</Wrap>
+									<ContextMenu name="ПолеГуидКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="ПолеГуидРасширеннаяПодсказка" id="66"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Б24_ИИ_НастройкиVibeCode</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="СтрокаПодключенияВОжидании" id="60">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Подключить" id="48">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Подключить</Action>
+		</Command>
+		<Command name="ПерезапуститьЗадание" id="230">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезапустить сеанс Push and Pull</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПерезапуститьЗадание</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ae8e095b-2824-45f9-a275-48099d062f7d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыПлатежныхДокументов" category="Ref">
+				<xr:TypeId>0f59d897-b458-4ceb-b002-cda4150162e5</xr:TypeId>
+				<xr:ValueId>077bc3dd-2726-422e-934f-5e173ccdc336</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыПлатежныхДокументов" category="Manager">
+				<xr:TypeId>b96ab3d8-b446-443d-b8b8-f86cf4e15d84</xr:TypeId>
+				<xr:ValueId>706f3668-bbda-4505-aa04-4f48bc6a91b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыПлатежныхДокументов" category="List">
+				<xr:TypeId>745fb238-98b9-41dc-8cb2-6413da25949d</xr:TypeId>
+				<xr:ValueId>f52af3a0-ffef-4531-8b7a-d9f4e30e84f7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыПлатежныхДокументов</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2cf1ac67-2200-472f-aec8-c6582a7821a3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПлатежноеПоручение</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

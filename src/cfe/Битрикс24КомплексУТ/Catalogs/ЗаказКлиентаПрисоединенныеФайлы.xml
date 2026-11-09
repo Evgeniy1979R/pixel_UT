@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="545d7e8a-7dea-46ae-a802-e7a699dfa8df">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗаказКлиентаПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>89412fa2-7864-4a32-bb42-eaa4beb7ea92</xr:TypeId>
+				<xr:ValueId>7b558534-96a2-4bbf-a1e3-7784dce84afb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗаказКлиентаПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>c8526bef-ebdb-49a6-8601-bba95c10e555</xr:TypeId>
+				<xr:ValueId>2f6c8432-0f8f-4ae9-999b-27ac3bf72777</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗаказКлиентаПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>ab885f3c-5259-4939-b896-7f0e0a2520f3</xr:TypeId>
+				<xr:ValueId>943821b0-ee40-451f-868e-94660b6313ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗаказКлиентаПрисоединенныеФайлы" category="List">
+				<xr:TypeId>7f5a6508-6019-48d3-a19e-afc368b2f39c</xr:TypeId>
+				<xr:ValueId>8f23081f-13a5-49c9-a4c6-45be3df3ee6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗаказКлиентаПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>acafadcb-003c-493b-b23f-f9616eadaa3a</xr:TypeId>
+				<xr:ValueId>8e7e276e-4d08-4352-84fc-9a6392debb8a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказКлиентаПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0e9194d9-dddc-45a0-9c09-12850e480012</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="08228104-a0c3-4ceb-868d-1b07a86bfc5c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВладелецФайла</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>469aebd1-4902-46e3-8851-7284628c8650</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="09263683-1362-4b1b-8925-b8f43c03d268">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТипХраненияФайла</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0fdea740-4198-4e2b-979b-1e7616c6f29b</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5913b98e-a9ce-4b34-aa63-1d0ffb0c5089">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Расширение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bb5d76a6-ddb3-4fa2-83fa-b5732194a8ba</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="48299e81-6a3b-4f04-99e5-092926eb0ace">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаСоздания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cd18201b-35ed-4e9f-801c-ecdaf8048f96</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b5587ffe-60be-4f33-916e-3a271d193b97">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Том</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>945ecd3c-14cd-4f9c-a061-cef42f21ff18</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ef0c383e-f476-4ce5-8b77-40abde8424e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПутьКФайлу</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f178f4c-a319-4954-9e61-1f007056c141</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

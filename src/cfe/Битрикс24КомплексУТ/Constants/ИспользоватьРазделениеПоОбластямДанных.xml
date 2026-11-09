@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="37a8cfa5-efd6-404e-824a-060b7ccb497d">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьРазделениеПоОбластямДанных" category="Manager">
+				<xr:TypeId>0f8ff460-880f-4593-b486-769af48ce620</xr:TypeId>
+				<xr:ValueId>fd259573-91f2-4605-b55e-4d71294fed46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных" category="ValueManager">
+				<xr:TypeId>ba8ea327-d34b-4d6c-88d4-83532dd426e9</xr:TypeId>
+				<xr:ValueId>db0b9bd6-14e9-4dc2-8382-0c2c0cebd81f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьРазделениеПоОбластямДанных" category="ValueKey">
+				<xr:TypeId>05f733d1-516d-4763-ad02-a298af538a01</xr:TypeId>
+				<xr:ValueId>de09e8db-8f9c-4a26-a317-20624cca2725</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользоватьРазделениеПоОбластямДанных</Name>
+			<Comment/>
+			<Type/>
+		</Properties>
+	</Constant>
+</MetaDataObject>

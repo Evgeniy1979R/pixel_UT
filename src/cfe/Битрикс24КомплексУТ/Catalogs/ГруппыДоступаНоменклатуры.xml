@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="7baa8e29-19e6-4fa7-a823-bf52b093c6fb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыДоступаНоменклатуры" category="Object">
+				<xr:TypeId>ead51c2d-ad91-42b3-87be-0f31427d2290</xr:TypeId>
+				<xr:ValueId>5d0db245-a908-4c0f-a07c-6ab29c3656fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыДоступаНоменклатуры" category="Ref">
+				<xr:TypeId>d04ab64e-6691-4676-a425-31f7cc721485</xr:TypeId>
+				<xr:ValueId>fb08473e-0438-4f05-8642-2d7c9827423d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыДоступаНоменклатуры" category="Selection">
+				<xr:TypeId>651b303c-2160-43f2-8f0a-abbb59aa74f8</xr:TypeId>
+				<xr:ValueId>269ec956-9a0b-4f30-befe-173d0eb539f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыДоступаНоменклатуры" category="List">
+				<xr:TypeId>50abd273-d739-427d-92ed-63a37882a6f5</xr:TypeId>
+				<xr:ValueId>3c485094-5e49-496d-8cfc-9b2459628329</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыДоступаНоменклатуры" category="Manager">
+				<xr:TypeId>0d700812-a42a-4ef6-948b-734a5fb57dd3</xr:TypeId>
+				<xr:ValueId>2c2f04e6-692e-408f-9728-af3e8de41e4e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ГруппыДоступаНоменклатуры</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="597b8a0d-deb0-4c61-becc-159e1d911cfe">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БанковскиеСчетаОрганизаций" category="Object">
+				<xr:TypeId>b69cbd9a-8923-4208-bb0b-527774e9c169</xr:TypeId>
+				<xr:ValueId>de5524ed-f241-44dc-aef7-34daefae5527</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БанковскиеСчетаОрганизаций" category="Ref">
+				<xr:TypeId>8e1ff768-9e06-4ff0-8826-79357d999b95</xr:TypeId>
+				<xr:ValueId>d94c7c5f-ff17-4ba7-809d-95c85e6dce15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БанковскиеСчетаОрганизаций" category="Selection">
+				<xr:TypeId>7d11a513-ffdd-4f46-814c-eca478ecb66a</xr:TypeId>
+				<xr:ValueId>a28ce7cb-ed9b-439c-b404-863777362ef4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БанковскиеСчетаОрганизаций" category="List">
+				<xr:TypeId>f169ad45-8524-4236-b520-27dee0d39b1a</xr:TypeId>
+				<xr:ValueId>31b55702-0cd4-41fb-ab0e-305364ecce5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БанковскиеСчетаОрганизаций" category="Manager">
+				<xr:TypeId>a532e05a-fe4e-4aef-a913-9eb9f8fa39be</xr:TypeId>
+				<xr:ValueId>7536329a-eb83-4260-b998-50718bcbc556</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БанковскиеСчетаОрганизаций</Name>
+			<Comment/>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+			</Owners>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d93a3ebd-4369-46b1-a606-d25b3ffd1e52">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Банк</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="68c4b3cd-71b5-4476-a08c-f98bb61aba57">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e86815ff-7cd4-409d-9633-c31856820a91">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаДенежныхСредств</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="965a3042-5b33-4278-b2b3-37718d5acab1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БИКБанка</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4fb5b8b8-dd65-48df-bf99-1f7b4fecc4d2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаименованиеБанка</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1a5b63a0-3ee6-41ae-b0ea-0cb3e2c6f8ce">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресБанка</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8dd30dae-27ef-43b7-9054-8061c357139d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СВИФТБанка</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="50a34ed9-e488-4bc1-b418-c3789395442b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УчетныеЗаписиЭлектроннойПочты" category="Object">
+				<xr:TypeId>1fb64ae5-2ad0-474e-9133-eb8ffe08d664</xr:TypeId>
+				<xr:ValueId>5087646e-eaf7-4880-bdda-43e5824cad73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УчетныеЗаписиЭлектроннойПочты" category="Ref">
+				<xr:TypeId>57f9488f-e284-418a-8081-77fd489ca77c</xr:TypeId>
+				<xr:ValueId>d0854fa2-2d76-4ce6-bd39-cfcb30846c8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УчетныеЗаписиЭлектроннойПочты" category="Selection">
+				<xr:TypeId>6940e9bd-114b-445b-b76f-d2691ff30780</xr:TypeId>
+				<xr:ValueId>953da2a9-05f2-4c97-9b62-a95f75cdaee0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УчетныеЗаписиЭлектроннойПочты" category="List">
+				<xr:TypeId>c463bc49-5338-4e96-b48c-7345fb017070</xr:TypeId>
+				<xr:ValueId>759651f2-a565-402d-8656-c2edb3a49852</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УчетныеЗаписиЭлектроннойПочты" category="Manager">
+				<xr:TypeId>540b258b-8a30-4ca6-a999-fdc4073009d0</xr:TypeId>
+				<xr:ValueId>a5647418-a810-408d-8b1a-375f327c4de8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УчетныеЗаписиЭлектроннойПочты</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

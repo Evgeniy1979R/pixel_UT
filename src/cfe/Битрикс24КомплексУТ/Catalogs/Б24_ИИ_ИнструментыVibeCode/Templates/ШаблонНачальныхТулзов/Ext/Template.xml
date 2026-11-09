@@ -1,0 +1,1135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<columns>
+		<id>684802e2-bf76-43ae-b022-f29037c93e52</id>
+		<size>4</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПолноеНаименование</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ТекстЗапроса</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_bank_info</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Bank_data_by_name</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns banks available in the 1C database. Use when you need bank details such as bank name, BIC, correspondent account, or SWIFT code for document preparation or to check whether a bank exists in 1C. Returns only banks stored in 1C. Returns up to 100 records per call. To search for a specific bank, pass a plain substring in `filters.bank_name_contains`. Does not search the internet or external registries.
+All search filters must be passed inside the filters object, not at the top level of the input. Use filters.bank_name_contains/
+Returns columns:
+bank_name ([str]): Bank name.
+correspondent_account ([str]): Correspondent account.
+bic ([str]): Bank BIC.
+swift_code ([str]): SWIFT code.
+</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Вы можете узнать информацию по банку, заведенному в 1С</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Bank Directory</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Данные банка по наименованию</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ ПЕРВЫЕ 100
+	Банки.Ссылка КАК НаименованиеБанка,
+	Банки.КоррСчет КАК КоррСчет,
+	Банки.Код КАК БИК_Банка,
+	Банки.СВИФТБИК КАК СВИФТ_Банка
+ИЗ
+	Справочник.КлассификаторБанков КАК Банки
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеБанка = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Банки.Наименование ПОДОБНО &amp;НаименованиеБанка
+		КОНЕЦ</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ ПЕРВЫЕ 100
+	Банки.Ссылка КАК Ссылка,
+	Банки.КоррСчет КАК КоррСчет,
+	Банки.Код КАК Код,
+	Банки.СВИФТБИК КАК СВИФТБИК
+ИЗ
+	Справочник.Банки КАК Банки
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;Наименование = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Банки.Наименование ПОДОБНО &amp;Наименование
+		КОНЕЦ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_inventory_balances</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Inventory_balances_of_goods_at_warehouses_broken_down_by_organizations</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns non-zero inventory balances by product, warehouse, and organization. Use when you need to check how much stock is available for a specific product, warehouse, or organization. Returns product name, remaining quantity, warehouse name, and organization name. Returns up to 100 rows per call. Supports substring filters for product, warehouse, and organization names, and numeric quantity thresholds. Do not use it to get a list of products.
+All filters must be passed inside the filters object, not at the top level of the input. Use filters.product_name_contains, filters.organization_name_contains, filters.warehouse_name_contains, filters.quantity_less_than, and filters.quantity_greater_than.
+Returns columns:
+product_name ([str]): Product or nomenclature name.
+quantity_remaining ([str]): Remaining quantity.
+warehouse_name ([str]): Warehouse name.
+organization_name ([str]): Organization name.</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Позволяет увидеть остатки товаров по выбранным складам и организациям</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Inventory Balances</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Остатки по товарам на складах в разрезе организаций</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ
+	СтруктурныеЕдиницы.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_Склады
+ИЗ
+	Справочник.Склады КАК СтруктурныеЕдиницы
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеСклада = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ СтруктурныеЕдиницы.Наименование ПОДОБНО &amp;НаименованиеСклада
+		КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Организации.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_Организации
+ИЗ
+	Справочник.Организации КАК Организации
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеОрганизации = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Организации.Наименование ПОДОБНО &amp;НаименованиеОрганизации
+		КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Номенклатура.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_Товары
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеТовара = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Номенклатура.Наименование ПОДОБНО &amp;НаименованиеТовара
+		КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЗапасыОстатки.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
+	ЗапасыОстатки.КоличествоОстаток КАК КоличествоОстаток,
+	ЗапасыОстатки.АналитикаУчетаНоменклатуры.МестоХранения КАК Склад,
+	ЗапасыОстатки.Организация КАК Организация,
+	ЗапасыОстатки.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура_ПраваДоступа,
+	ЗапасыОстатки.АналитикаУчетаНоменклатуры.МестоХранения КАК Склад_ПраваДоступа,
+	ЗапасыОстатки.Организация КАК Организация_ПраваДоступа
+ИЗ
+	РегистрНакопления.ТоварыОрганизаций.Остатки(
+			,
+			Организация В
+					(ВЫБРАТЬ
+						ВТ_Организации.Ссылка
+					ИЗ
+						ВТ_Организации)
+				И АналитикаУчетаНоменклатуры.МестоХранения В
+					(ВЫБРАТЬ
+						ВТ_Склады.Ссылка
+					ИЗ
+						ВТ_Склады)
+				И АналитикаУчетаНоменклатуры.Номенклатура В
+					(ВЫБРАТЬ
+						ВТ_Товары.Ссылка
+					ИЗ
+						ВТ_Товары)) КАК ЗапасыОстатки
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;КоличествоОстатокБольше = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЗапасыОстатки.КоличествоОстаток &gt; &amp;КоличествоОстатокБольше
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;КоличествоОстатокМеньше = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЗапасыОстатки.КоличествоОстаток &lt; &amp;КоличествоОстатокМеньше
+		КОНЕЦ</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ
+	СтруктурныеЕдиницы.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_Склады
+ИЗ
+	Справочник.СтруктурныеЕдиницы КАК СтруктурныеЕдиницы
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеСклада = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ СтруктурныеЕдиницы.Наименование ПОДОБНО &amp;НаименованиеСклада
+		КОНЕЦ 
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Организации.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_Организации
+ИЗ
+	Справочник.Организации КАК Организации
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеОрганизации = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Организации.Наименование ПОДОБНО &amp;НаименованиеОрганизации
+		КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Номенклатура.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТ_Товары
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеТовара = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Номенклатура.Наименование ПОДОБНО &amp;НаименованиеТовара
+		КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЗапасыОстатки.Номенклатура КАК Номенклатура,
+	ЗапасыОстатки.Характеристика КАК Характеристика,
+	ЗапасыОстатки.КоличествоОстаток КАК КоличествоОстаток,
+	ЗапасыОстатки.СтруктурнаяЕдиница КАК СтруктурнаяЕдиница,
+	ЗапасыОстатки.Организация КАК Организация
+ИЗ
+	РегистрНакопления.Запасы.Остатки(
+			,
+			Организация В
+					(ВЫБРАТЬ
+						ВТ_Организации.Ссылка
+					ИЗ
+						ВТ_Организации)
+				И СтруктурнаяЕдиница В
+					(ВЫБРАТЬ
+						ВТ_Склады.Ссылка
+					ИЗ
+						ВТ_Склады)
+				И Номенклатура В
+					(ВЫБРАТЬ
+						ВТ_Товары.Ссылка
+					ИЗ
+						ВТ_Товары)) КАК ЗапасыОстатки
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;КоличествоОстатокБольше = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЗапасыОстатки.КоличествоОстаток &gt; &amp;КоличествоОстатокБольше
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;КоличествоОстатокМеньше = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЗапасыОстатки.КоличествоОстаток &lt; &amp;КоличествоОстатокМеньше
+		КОНЕЦ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_list_of_warehouses</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">List_of_warehouses</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns warehouses registered in 1C. Use when you need to see which warehouses exist in the system and which organization owns each warehouse. Returns warehouse name and organization name only. Supports substring filters for warehouse name and organization name.
+All search filters must be passed inside the filters object, not at the top level of the input. Use filters.warehouse_name_contains and filters.organization_name_contains.
+Returns columns:
+warehouse_name ([str]): Warehouse name.
+organization_name ([str]): Organization name.</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Позволяет увидеть список складов</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Warehouse List</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Список складов</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ
+	СтруктурныеЕдиницы.Наименование КАК Склад,
+	СтруктурныеЕдиницы.Ссылка КАК Склад_ПраваДоступа
+ИЗ
+	Справочник.Склады КАК СтруктурныеЕдиницы
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;НаименованиеСклада = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ СтруктурныеЕдиницы.Наименование ПОДОБНО &amp;НаименованиеСклада
+		КОНЕЦ</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ
+	СтруктурныеЕдиницы.Наименование КАК Наименование,
+	СтруктурныеЕдиницы.Организация КАК Организация
+ИЗ
+	Справочник.СтруктурныеЕдиницы КАК СтруктурныеЕдиницы
+ГДЕ
+	СтруктурныеЕдиницы.ТипСтруктурнойЕдиницы = ЗНАЧЕНИЕ(Перечисление.ТипыСтруктурныхЕдиниц.Склад)
+	И ВЫБОР
+			КОГДА &amp;Наименование = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ СтруктурныеЕдиницы.Наименование ПОДОБНО &amp;Наименование
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;НаименованиеОрганизации = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ СтруктурныеЕдиницы.Организация.Наименование ПОДОБНО &amp;НаименованиеОрганизации
+		КОНЕЦ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_organizations</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">List_of_organizations</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns organizations registered in 1C. Use when you need to see which organizations exist in the system and retrieve their name, TIN, and checkpoint. Returns organization name, TIN, and checkpoint only. There are no filters, so don't try to find a filter.
+Returns columns:
+organization_name ([str]): Organization name.
+tin ([str]): Taxpayer Identification Number (TIN / ИНН).
+checkpoint ([str]): Tax registration reason code (KPP / КПП).</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Позволяет увидеть список организаций</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Organization List</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Список организаций</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ
+	Организации.Наименование КАК Организация,
+	Организации.ИНН КАК ИНН,
+	Организации.КПП КАК КПП,
+	Организации.Ссылка КАК Организация_ПраваДоступа
+ИЗ
+	Справочник.Организации КАК Организации</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ
+	Организации.Наименование КАК Наименование,
+	Организации.ИНН КАК ИНН,
+	Организации.КПП КАК КПП,
+	Организации.Ссылка КАК Организация_ПраваДоступа
+ИЗ
+	Справочник.Организации КАК Организации</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_nomenclature_list</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">List_of_nomenclature</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns products registered in 1C. Use when you need to see which products exist in the system, retrieve product names and item numbers, or search by product name or item number. Returns products only. Does not return product groups. Supports substring filters for product name and item number.
+ All search filters must be passed inside the filters object, not at the top level of the input. Use filters.product_name_contains and filters.item_number_contains.
+Returns columns:
+product_name ([str]): Product or nomenclature name.
+item_number ([str]): Item number, article, or SKU as stored in 1C.
+</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Позволяет увидеть номенклатуру по заданному имени или артикулу</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Nomenclature List</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Список номенклатуры</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ
+	Номенклатура.Наименование КАК Номенклатура,
+	Номенклатура.Артикул КАК Артикул,
+	Номенклатура.Ссылка КАК Номенклатура_ПраваДоступа
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	Номенклатура.ЭтоГруппа = ЛОЖЬ
+	И ВЫБОР
+			КОГДА &amp;НаименованиеТовара = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Номенклатура.Наименование ПОДОБНО &amp;НаименованиеТовара
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;Артикул = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Номенклатура.Артикул ПОДОБНО &amp;Артикул
+		КОНЕЦ</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ
+	Номенклатура.Наименование КАК Наименование,
+	Номенклатура.Артикул КАК Артикул,
+	Номенклатура.Ссылка КАК Номенклатура_ПраваДоступа
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	Номенклатура.ЭтоГруппа = ЛОЖЬ
+	И ВЫБОР
+			КОГДА &amp;Наименование = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Номенклатура.Наименование ПОДОБНО &amp;Наименование
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;Артикул = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ Номенклатура.Артикул ПОДОБНО &amp;Артикул
+		КОНЕЦ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_sales_report</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Sales_Report</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns sales totals grouped by product, warehouse, and organization. Use when you need quantity sold and sales amount for analysis, reporting, or sales verification. Returns product name, warehouse name, organization name, quantity sold, and amount sold. Does not return products with no sales in the selected reporting period. If `filters.date` is omitted, the server uses the current month. If the user requests sales for a month, send the date to the filter for the first day of the month.
+All filters must be passed inside the filters object, not at the top level of the input. Use filters.date.
+Returns columns:
+product_name ([str]): Product or nomenclature name.
+warehouse_name ([str]): Warehouse name.
+organization_name ([str]): Organization name.
+quantity ([str]): Quantity sold.
+amount ([str]): Total amount.</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Сформируй мне ведомость по продажам за январь 2024 года с разбивкой по номенклатуре и складам. Сколько товаров было продано (в количестве и сумме) за последний месяц, с расшифровкой по номенклатуре?</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Sales Report</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Ведомость по продажам</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ
+	Продажи.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
+	Продажи.Склад КАК Склад,
+	Продажи.АналитикаУчетаПоПартнерам.Организация КАК Организация,
+	СУММА(Продажи.Количество) КАК Количество,
+	СУММА(Продажи.СуммаВыручкиСНДСРегл) КАК Сумма,
+	Продажи.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура_ПраваДоступа,
+	Продажи.Склад КАК Склад_ПраваДоступа,
+	Продажи.АналитикаУчетаПоПартнерам.Организация КАК Организация_ПраваДоступа
+ИЗ
+	РегистрНакопления.ВыручкаИСебестоимостьПродаж КАК Продажи
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;Период = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ НАЧАЛОПЕРИОДА(Продажи.Период, МЕСЯЦ) = НАЧАЛОПЕРИОДА(&amp;Период, МЕСЯЦ)
+		КОНЕЦ
+
+СГРУППИРОВАТЬ ПО
+	Продажи.АналитикаУчетаНоменклатуры.Номенклатура,
+	Продажи.Склад,
+	Продажи.АналитикаУчетаПоПартнерам.Организация</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ
+	Продажи.Номенклатура КАК Номенклатура,
+	Продажи.Склад КАК Склад,
+	Продажи.Организация КАК Организация,
+	Продажи.Количество КАК Количество,
+	Продажи.Сумма КАК Сумма
+ИЗ
+	РегистрНакопления.Продажи КАК Продажи
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;Период = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ НАЧАЛОПЕРИОДА(Продажи.Период, МЕСЯЦ) = НАЧАЛОПЕРИОДА(&amp;Период, МЕСЯЦ)
+		КОНЕЦ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_counterparty_debts</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Debt_of_counterparties</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns accounts receivable by counterparty on a given date. Use when you need to check who owes money, review counterparty debt, or prepare a debt report. Returns counterparty name, organization name, and debt amount. Does not return counterparties with zero debt. If `filters.date` is omitted, the server uses the current date.
+All filters must be passed inside the filters object, not at the top level of the input. Use filters.date.
+Returns columns:
+counterparty_name ([str]): Counterparty name.
+organization_name ([str]): Organization name.
+amount_of_debt ([str]): Amount of debt</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Выведи список всех контрагентов, у которых есть задолженность на сегодня.</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Counterparty Debts</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Задолженность контрагентов</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	РасчетыСПокупателямиОстатки.АналитикаУчетаПоПартнерам.Контрагент КАК Контрагент,
+	РасчетыСПокупателямиОстатки.АналитикаУчетаПоПартнерам.Организация КАК Организация,
+	РасчетыСПокупателямиОстатки.СуммаОстаток КАК Остаток,
+	РасчетыСПокупателямиОстатки.АналитикаУчетаПоПартнерам.Контрагент КАК Контрагент_ПраваДоступа,
+	РасчетыСПокупателямиОстатки.АналитикаУчетаПоПартнерам.Организация КАК Организация_ПраваДоступа
+ИЗ
+	РегистрНакопления.РасчетыСКлиентами.Остатки(&amp;Период, ) КАК РасчетыСПокупателямиОстатки
+ГДЕ
+	РасчетыСПокупателямиОстатки.СуммаОстаток &gt; 0</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	РасчетыСПокупателямиОстатки.Контрагент КАК Контрагент,
+	РасчетыСПокупателямиОстатки.Организация КАК Организация,
+	РасчетыСПокупателямиОстатки.СуммаОстаток КАК Остаток,
+	РасчетыСПокупателямиОстатки.АналитикаУчетаПоПартнерам.Контрагент КАК Контрагент_ПраваДоступа,
+	РасчетыСПокупателямиОстатки.АналитикаУчетаПоПартнерам.Организация КАК Организация_ПраваДоступа
+ИЗ
+	РегистрНакопления.РасчетыСПокупателями.Остатки(&amp;Период, ) КАК РасчетыСПокупателямиОстатки
+ГДЕ
+	РасчетыСПокупателямиОстатки.СуммаОстаток &gt; 0</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1C_get_list_of_goods_and_services_sold_per_day</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">List_of_Goods_and_Services_Sold_per_Day</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Returns "Goods and Services Sale" documents for a specific day. Use when you need to find all sales or shipment documents for one day, verify that shipments happened, or review document totals for that date. Returns document date, document reference, and total amount. Does not return line items or detailed document contents. If `filters.date` is omitted, the server uses the current day.
+All filters must be passed inside the filters object, not at the top level of the input. Use filters.date.
+Returns columns:
+amount ([str]): Document total amount.
+Date ([str]): Date in YYYY-MM-DD format. Omit this field to use the current day.
+implementation_document ([str]): Sales document reference.</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Найди все документы "Реализация товаров и услуг", проведенные за вчерашний день, с итоговой суммой по каждому.</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Sales Documents by Day</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Список Реализация товаров и услуг за день</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВЫБРАТЬ
+	Продажи.Регистратор КАК Реализация,
+	Продажи.Регистратор.Дата КАК Период,
+	МАКСИМУМ(Продажи.Регистратор.СуммаДокумента) КАК СуммаДокумента
+ИЗ
+	РегистрНакопления.ВыручкаИСебестоимостьПродаж КАК Продажи
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;Период = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ НАЧАЛОПЕРИОДА(Продажи.Период, ДЕНЬ) = НАЧАЛОПЕРИОДА(&amp;Период, ДЕНЬ)
+		КОНЕЦ
+
+СГРУППИРОВАТЬ ПО
+	Продажи.Регистратор,
+	Продажи.Регистратор.Дата</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">ВЫБРАТЬ
+	Продажи.Сумма КАК Сумма,
+	Продажи.Период КАК Период,
+	Продажи.Регистратор КАК Реализация
+ИЗ
+	РегистрНакопления.Продажи КАК Продажи
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;Период = "B24_NoFilterSpecified"
+				ТОГДА ИСТИНА
+			ИНАЧЕ НАЧАЛОПЕРИОДА(Продажи.Период, ДЕНЬ) = НАЧАЛОПЕРИОДА(&amp;Период, ДЕНЬ)
+		КОНЕЦ</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<indexTo>13</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>7</defaultFormatIndex>
+	<height>17</height>
+	<vgRows>17</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Данные</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>8</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ОбластьЯчейки</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>8</beginRow>
+			<endRow>8</endRow>
+			<beginColumn>3</beginColumn>
+			<endColumn>3</endColumn>
+			<columnsID>684802e2-bf76-43ae-b022-f29037c93e52</columnsID>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<font ref="style:NormalTextFont" bold="false" kind="StyleItem" scale="100"/>
+	<format>
+		<width>152</width>
+	</format>
+	<format>
+		<width>142</width>
+	</format>
+	<format>
+		<width>176</width>
+	</format>
+	<format>
+		<width>560</width>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>72</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<backColor>#CCC085</backColor>
+		<protection>false</protection>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>72</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:White</backColor>
+		<protection>false</protection>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<width>72</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<backColor>#F5F2DD</backColor>
+		<protection>false</protection>
+		<columnSizeChange>QuickChange</columnSizeChange>
+	</format>
+</document>

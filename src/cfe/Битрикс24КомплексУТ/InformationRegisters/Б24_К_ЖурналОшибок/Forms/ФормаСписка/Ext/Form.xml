@@ -1,0 +1,697 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Журнал ошибок</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОбщая" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа общая</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбщаяРасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаЛеваяКолонка" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<ExtendedTooltip name="ГруппаЛеваяКолонкаРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаНастройкаПодключения" id="37">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа настройка синхронизации</v8:content>
+								</v8:item>
+							</Title>
+							<Width>25</Width>
+							<Height>12</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкаПодключенияРасширеннаяПодсказка" id="38"/>
+							<ChildItems>
+								<Table name="СписокНастроекСинхронизации" id="39">
+									<ReadOnly>true</ReadOnly>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+									<VerticalScrollBar>DontUse</VerticalScrollBar>
+									<HorizontalLines>false</HorizontalLines>
+									<VerticalLines>false</VerticalLines>
+									<SearchOnInput>DontUse</SearchOnInput>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>СписокНастроекСинхронизации</DataPath>
+									<RowPictureDataPath>СписокНастроекСинхронизации.DefaultPicture</RowPictureDataPath>
+									<CommandSet>
+										<ExcludedCommand>CancelSearch</ExcludedCommand>
+										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+										<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+										<ExcludedCommand>Find</ExcludedCommand>
+										<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+										<ExcludedCommand>ListSettings</ExcludedCommand>
+										<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+										<ExcludedCommand>OutputList</ExcludedCommand>
+										<ExcludedCommand>Refresh</ExcludedCommand>
+										<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+										<ExcludedCommand>SearchHistory</ExcludedCommand>
+										<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+									</CommandSet>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="СписокНастроекСинхронизацииКонтекстноеМеню" id="40">
+										<Autofill>false</Autofill>
+									</ContextMenu>
+									<AutoCommandBar name="СписокНастроекСинхронизацииКоманднаяПанель" id="41">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="СписокНастроекСинхронизацииРасширеннаяПодсказка" id="42"/>
+									<SearchStringAddition name="СписокНастроекСинхронизацииСтрокаПоиска" id="43">
+										<AdditionSource>
+											<Item>СписокНастроекСинхронизации</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокНастроекСинхронизацииСтрокаПоискаКонтекстноеМеню" id="44"/>
+										<ExtendedTooltip name="СписокНастроекСинхронизацииСтрокаПоискаРасширеннаяПодсказка" id="45"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокНастроекСинхронизацииСостояниеПросмотра" id="46">
+										<AdditionSource>
+											<Item>СписокНастроекСинхронизации</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокНастроекСинхронизацииСостояниеПросмотраКонтекстноеМеню" id="47"/>
+										<ExtendedTooltip name="СписокНастроекСинхронизацииСостояниеПросмотраРасширеннаяПодсказка" id="48"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокНастроекСинхронизацииУправлениеПоиском" id="49">
+										<AdditionSource>
+											<Item>СписокНастроекСинхронизации</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокНастроекСинхронизацииУправлениеПоискомКонтекстноеМеню" id="50"/>
+										<ExtendedTooltip name="СписокНастроекСинхронизацииУправлениеПоискомРасширеннаяПодсказка" id="51"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnActivateRow">СписокНастроекСинхронизацииПриАктивизацииСтроки</Event>
+									</Events>
+									<ChildItems>
+										<LabelField name="СписокНастроекСинхронизацииСсылка" id="52">
+											<DataPath>СписокНастроекСинхронизации.Ссылка</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройка</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="СписокНастроекСинхронизацииСсылкаКонтекстноеМеню" id="53"/>
+											<ExtendedTooltip name="СписокНастроекСинхронизацииСсылкаРасширеннаяПодсказка" id="54"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОперации" id="77">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Операция</v8:content>
+								</v8:item>
+							</Title>
+							<Width>25</Width>
+							<Behavior>Usual</Behavior>
+							<ExtendedTooltip name="ГруппаОперацииРасширеннаяПодсказка" id="78"/>
+							<ChildItems>
+								<Table name="СпкОпераций" id="61">
+									<Representation>List</Representation>
+									<ReadOnly>true</ReadOnly>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<Header>false</Header>
+									<HorizontalLines>false</HorizontalLines>
+									<VerticalLines>false</VerticalLines>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<DataPath>СпкОпераций</DataPath>
+									<RowPictureDataPath>СпкОпераций.Picture</RowPictureDataPath>
+									<CommandSet>
+										<ExcludedCommand>Add</ExcludedCommand>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>CheckAll</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
+										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>Pickup</ExcludedCommand>
+										<ExcludedCommand>SelectAll</ExcludedCommand>
+										<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+										<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
+										<ExcludedCommand>UncheckAll</ExcludedCommand>
+									</CommandSet>
+									<ContextMenu name="СпкОперацийКонтекстноеМеню" id="62">
+										<Autofill>false</Autofill>
+									</ContextMenu>
+									<AutoCommandBar name="СпкОперацийКоманднаяПанель" id="63">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="СпкОперацийРасширеннаяПодсказка" id="64"/>
+									<SearchStringAddition name="СпкОперацийСтрокаПоиска" id="65">
+										<AdditionSource>
+											<Item>СпкОпераций</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СпкОперацийСтрокаПоискаКонтекстноеМеню" id="66"/>
+										<ExtendedTooltip name="СпкОперацийСтрокаПоискаРасширеннаяПодсказка" id="67"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СпкОперацийСостояниеПросмотра" id="68">
+										<AdditionSource>
+											<Item>СпкОпераций</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СпкОперацийСостояниеПросмотраКонтекстноеМеню" id="69"/>
+										<ExtendedTooltip name="СпкОперацийСостояниеПросмотраРасширеннаяПодсказка" id="70"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СпкОперацийУправлениеПоиском" id="71">
+										<AdditionSource>
+											<Item>СпкОпераций</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СпкОперацийУправлениеПоискомКонтекстноеМеню" id="72"/>
+										<ExtendedTooltip name="СпкОперацийУправлениеПоискомРасширеннаяПодсказка" id="73"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="СпкОперацийЗначение" id="74">
+											<DataPath>СпкОпераций.Value</DataPath>
+											<EditMode>Directly</EditMode>
+											<ContextMenu name="СпкОперацийЗначениеКонтекстноеМеню" id="75"/>
+											<ExtendedTooltip name="СпкОперацийЗначениеРасширеннаяПодсказка" id="76"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПраваяКолонка" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа правая колонка</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПраваяКолонкаРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаШапкаПравойКолонки" id="88">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка правой колонки</v8:content>
+								</v8:item>
+							</Title>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаШапкаПравойКолонкиРасширеннаяПодсказка" id="89"/>
+							<ChildItems>
+								<InputField name="Период" id="58">
+									<DataPath>Период</DataPath>
+									<TitleLocation>Left</TitleLocation>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="ПериодКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="60"/>
+									<Events>
+										<Event name="OnChange">ПриИзмененииЭлемента</Event>
+									</Events>
+								</InputField>
+								<LabelDecoration name="Декорация1" id="90">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="Декорация1КонтекстноеМеню" id="91"/>
+									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="92"/>
+								</LabelDecoration>
+								<Button name="ФормаУдалитьЗаписи" id="86">
+									<Type>UsualButton</Type>
+									<Representation>Text</Representation>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<CommandName>Form.Command.УдалитьЗаписи</CommandName>
+									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="ФормаУдалитьЗаписиРасширеннаяПодсказка" id="87"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="Список" id="3">
+							<Representation>List</Representation>
+							<CommandBarLocation>Top</CommandBarLocation>
+							<DefaultItem>true</DefaultItem>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<RowSelectionMode>Row</RowSelectionMode>
+							<HorizontalLines>false</HorizontalLines>
+							<VerticalLines>false</VerticalLines>
+							<InitialTreeView>ExpandAllLevels</InitialTreeView>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>Список</DataPath>
+							<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>ChangeHistory</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>Refresh</ExcludedCommand>
+								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+							</CommandSet>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>true</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+							<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+								<ChildItems>
+									<Button name="СписокОшибкаРешена" id="79">
+										<Type>CommandBarButton</Type>
+										<Representation>Text</Representation>
+										<CommandName>Form.Command.ОшибкаРешена</CommandName>
+										<ExtendedTooltip name="СписокОшибкаРешенаРасширеннаяПодсказка" id="80"/>
+									</Button>
+									<Button name="СписокОшибкаНеРешена" id="81">
+										<Type>CommandBarButton</Type>
+										<Representation>Text</Representation>
+										<CommandName>Form.Command.ОшибкаНеРешена</CommandName>
+										<ExtendedTooltip name="СписокОшибкаНеРешенаРасширеннаяПодсказка" id="82"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+							<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+								<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+								<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+								<AdditionSource>
+									<Item>Список</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+								<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ВремяСообщения" id="83">
+									<DataPath>Список.ВремяСообщения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Время</v8:content>
+										</v8:item>
+									</Title>
+									<Width>9</Width>
+									<ContextMenu name="ВремяСообщенияКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ВремяСообщенияРасширеннаяПодсказка" id="85"/>
+								</LabelField>
+								<LabelField name="Сообщение" id="28">
+									<DataPath>Список.Сообщение</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<ContextMenu name="СообщениеКонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="СообщениеРасширеннаяПодсказка" id="30"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Б24_К_ЖурналОшибок.Сообщение КАК Сообщение,
+	Б24_К_ЖурналОшибок.ТипСообщения КАК ТипСообщения,
+	Б24_К_ЖурналОшибок.ОписаниеИзмерения КАК ОписаниеИзмерения,
+	Б24_К_ЖурналОшибок.ДатаСообщения КАК ДатаСообщения,
+	Б24_К_ЖурналОшибок.Операция КАК Операция,
+	Б24_К_ЖурналОшибок.Обработано КАК Обработано,
+	Б24_К_ЖурналОшибок.ДатаСообщения КАК ВремяСообщения,
+	Б24_К_ЖурналОшибок.ВремяЗапуска КАК ВремяЗапуска
+ИЗ
+	РегистрСведений.Б24_К_ЖурналОшибок КАК Б24_К_ЖурналОшибок
+ГДЕ
+	Б24_К_ЖурналОшибок.НастройкаПодключения = &amp;НастройкаПодключения
+	И Б24_К_ЖурналОшибок.Получатель = &amp;Получатель
+	И Б24_К_ЖурналОшибок.ДатаСообщения &gt;= &amp;ДатаНачала
+	И Б24_К_ЖурналОшибок.ДатаСообщения &lt;= &amp;ДатаОкончания
+	И ВЫБОР
+			КОГДА "Все" = &amp;Операция
+				ТОГДА ИСТИНА
+			ИНАЧЕ Б24_К_ЖурналОшибок.Операция = &amp;Операция
+		КОНЕЦ</QueryText>
+				<MainTable>InformationRegister.Б24_К_ЖурналОшибок</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Сообщение</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>ВремяСообщения</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ТипСообщения</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.Б24_К_ТипыСообщений.КритическаяОшибка</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#FFC8C8</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:SpecialTextColor</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Сообщение</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>ВремяСообщения</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">ТипСообщения</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.Б24_К_ТипыСообщений.Ошибка</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#FFF0F0</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#FD9900</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ДатаСообщения</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Формат</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>ВремяСообщения</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Формат</dcscor:parameter>
+									<dcscor:value xsi:type="xs:string">ДЛФ=T</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:selection>
+								<dcsset:item>
+									<dcsset:field>Сообщение</dcsset:field>
+								</dcsset:item>
+								<dcsset:item>
+									<dcsset:field>ВремяСообщения</dcsset:field>
+								</dcsset:item>
+							</dcsset:selection>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Обработано</dcsset:left>
+									<dcsset:comparisonType>Equal</dcsset:comparisonType>
+									<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">#DAE4DB</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветТекста</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:ToolTipTextColor</dcscor:value>
+								</dcscor:item>
+							</dcsset:appearance>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ДатаСообщения</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>ВремяЗапуска</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:StructureItemGroup">
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>Операция</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокНастроекСинхронизации" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список настроек синхронизации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	Б24_К_НастройкиПодключения.Ссылка КАК Ссылка
+ИЗ
+	Справочник.Б24_К_НастройкиПодключения КАК Б24_К_НастройкиПодключения
+</QueryText>
+				<MainTable>Catalog.Б24_К_НастройкиПодключения</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Период" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СпкОпераций" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Спк операций</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОшибкаРешена" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Решена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибка решена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкаРешена</Action>
+		</Command>
+		<Command name="ОшибкаНеРешена" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не решена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ошибка не решена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОшибкаНеРешена</Action>
+		</Command>
+		<Command name="УдалитьЗаписи" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить записи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить записи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьЗаписи</Action>
+		</Command>
+	</Commands>
+</Form>

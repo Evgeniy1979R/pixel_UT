@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="8a42e2b0-0f44-486f-a508-29d2b9002fd1">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИсточникиПервичногоИнтереса" category="Record">
+				<xr:TypeId>df575c6a-e950-4f75-a79c-d5eb8cf4d542</xr:TypeId>
+				<xr:ValueId>df722915-2798-4b2a-9c5f-6498de52d71a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИсточникиПервичногоИнтереса" category="Manager">
+				<xr:TypeId>49996d30-37ee-476a-82ac-afa6e2f838c4</xr:TypeId>
+				<xr:ValueId>f261dafb-f11d-49d1-8124-df5df1a45bfc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИсточникиПервичногоИнтереса" category="Selection">
+				<xr:TypeId>60c9e497-7909-45f7-bd9e-2d88b383ce2c</xr:TypeId>
+				<xr:ValueId>15385c5e-2d8b-47b8-b0dd-320d2ff77b31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИсточникиПервичногоИнтереса" category="List">
+				<xr:TypeId>9691f400-01bb-415c-8385-f6ebed8b253f</xr:TypeId>
+				<xr:ValueId>1cf370bc-ada6-443d-baf1-739422b4b3c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИсточникиПервичногоИнтереса" category="RecordSet">
+				<xr:TypeId>3f7462c8-ad5d-4651-938e-a81faf65e67d</xr:TypeId>
+				<xr:ValueId>284778fe-362a-4628-920e-8a963299da01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИсточникиПервичногоИнтереса" category="RecordKey">
+				<xr:TypeId>cf9c63a6-02d5-4a14-a4df-4e17cdbd7400</xr:TypeId>
+				<xr:ValueId>25664997-a0c4-42b0-a504-e9b04470ca48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИсточникиПервичногоИнтереса" category="RecordManager">
+				<xr:TypeId>c063aafd-3972-455e-b1e0-0cee08a28fa9</xr:TypeId>
+				<xr:ValueId>fc4ae805-4f77-4e34-ab26-c7b24a469281</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсточникиПервичногоИнтереса</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c9838598-b8b9-4266-914d-c220c00f33fa</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="0cbfa3e4-00fb-41e7-b429-4ef67de6dbc7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КаналПервичногоИнтереса</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bbca9b0b-b5bd-469a-96fe-4e7426d8b976</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2728a1db-b6c4-45b1-8fc2-ab5a5a74367d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>49f3c3c6-e6f4-4022-8605-1216cc155db2</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="88faa6e9-6c30-4bfe-be54-055592c030b2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сделка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>40c2228a-ee99-48fb-8acc-6e4913a15e86</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

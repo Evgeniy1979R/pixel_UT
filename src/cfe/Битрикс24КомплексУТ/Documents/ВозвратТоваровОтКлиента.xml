@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b791e872-408a-4710-9b11-93cae7cc4927">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратТоваровОтКлиента" category="Object">
+				<xr:TypeId>51fd10f4-d1fa-4a24-9a8e-e970b41fc3ca</xr:TypeId>
+				<xr:ValueId>67b0097a-b06c-4014-a4e7-49944306c84c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратТоваровОтКлиента" category="Ref">
+				<xr:TypeId>9d733bcd-41e0-4bc6-b77d-7b2c2ff35d34</xr:TypeId>
+				<xr:ValueId>d885cfa2-cb2b-46da-8c88-062378867850</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратТоваровОтКлиента" category="Selection">
+				<xr:TypeId>26e0305c-fbee-44b7-87aa-9cb4b241b904</xr:TypeId>
+				<xr:ValueId>b6a623b8-7968-4bdf-aca6-54f3cc5fd472</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратТоваровОтКлиента" category="List">
+				<xr:TypeId>d0fb87fa-252b-48a3-8b78-62cb82767c6d</xr:TypeId>
+				<xr:ValueId>bde55d12-3e44-4c68-ad48-3a495ae592a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратТоваровОтКлиента" category="Manager">
+				<xr:TypeId>4285146c-0b61-4577-8832-086c30626f61</xr:TypeId>
+				<xr:ValueId>21bed4c6-3dee-4204-90da-c21ef7281fa4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВозвратТоваровОтКлиента</Name>
+			<Comment/>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="935f13aa-df64-4a89-ad74-c7de4a225be7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументРеализации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>482efeb2-6584-4e29-acb0-718c0859e513</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="39bfff90-0c56-4bf3-8a2c-21694a6b1ace">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратТоваровОтКлиента.Товары" category="TabularSection">
+						<xr:TypeId>656f9b9b-9b3e-4e05-bd37-6b0d245f8a46</xr:TypeId>
+						<xr:ValueId>8427b804-9f2c-4f00-8adf-73dc2608db8e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратТоваровОтКлиента.Товары" category="TabularSectionRow">
+						<xr:TypeId>6e548f74-efd8-4d45-a713-3cdd865cf1c8</xr:TypeId>
+						<xr:ValueId>85b8cca3-f96b-46f9-8a13-706dda81757b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d97593cc-9e00-40de-8188-964163b9a47f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="589d4512-8f93-4bc2-a5fe-65a8c4859bcb">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0d5ab1a1-c2ec-4fef-b6aa-cf48e114f62d</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="01ac6714-4a50-4ca6-9195-e229080faf94">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Характеристика</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8ec9788f-c232-4ca8-b273-1948648ca8c8</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="17108f5d-0579-4b46-af33-7ef94aa17e65">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Количество</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>72338e32-64c3-4932-9afe-432c94be8596</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0bdf00e9-e119-47d0-b09f-dd0d7f4a8eae">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Упаковка</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6f077424-7739-4132-8543-5b4e84f4f846</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="854cd3cc-e055-44ba-8bba-3fa8cf392032">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Цена</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>72d0be57-210d-4f57-bb99-9a68a3e4fc94</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ce5e1e27-0d2f-4d79-90ec-3a0b41c5708c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>dda0c316-494c-49fa-8dc3-0f2b7fb432c7</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7d36412a-7e80-45d3-a6d0-d22b0e78cdc6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СтавкаНДС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f0f98c9c-e30a-44dc-aac5-88c55f74d1c0</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f320fd5b-9785-41fb-8380-9e00a8c5e024">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаНДС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>83a397d6-087d-43ea-8a1b-535791c0ad6f</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<Group>HorizontalIfPossible</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="МоментВремени" id="1">
+			<DataPath>Запись.МоментВремени</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="МоментВремениКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="МоментВремениРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Операция" id="5">
+			<DataPath>Запись.Операция</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОперацияКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ОперацияРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="НомерСообщения" id="9">
+			<DataPath>Запись.НомерСообщения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерСообщенияКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="НомерСообщенияРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<TextDocumentField name="Сообщение" id="13">
+			<DataPath>Запись.Сообщение</DataPath>
+			<ContextMenu name="СообщениеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СообщениеРасширеннаяПодсказка" id="15"/>
+		</TextDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.Б24_К_ЛогиИИ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

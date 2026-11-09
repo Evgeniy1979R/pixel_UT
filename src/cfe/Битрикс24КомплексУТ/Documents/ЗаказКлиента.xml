@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="59ffe1b9-7ea9-459d-a8c7-b00e1a223537">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказКлиента" category="Object">
+				<xr:TypeId>ef7a42dd-2dc9-472c-910a-1feb1e84ebb4</xr:TypeId>
+				<xr:ValueId>f6bbc9d5-059b-4af8-9c68-c151455e955d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказКлиента" category="Ref">
+				<xr:TypeId>7f8ff8a7-6082-4456-8dcf-c5723a01f8d1</xr:TypeId>
+				<xr:ValueId>15ca2af4-b745-40e4-b6ae-41821dbac742</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказКлиента" category="Selection">
+				<xr:TypeId>895c59c5-324e-4a33-a796-30490153055c</xr:TypeId>
+				<xr:ValueId>d5269b63-6726-4a44-a407-3c6cda3c595c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказКлиента" category="List">
+				<xr:TypeId>8fcdc5fa-d5b4-4a53-b80d-542e38b27fb6</xr:TypeId>
+				<xr:ValueId>89ca55c0-c5da-455a-b7b2-3f8ac3d95adf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказКлиента" category="Manager">
+				<xr:TypeId>9f90633c-2945-4dde-8dc0-5f88f6bee19b</xr:TypeId>
+				<xr:ValueId>6bd8d0cc-3c22-472c-8b72-aaf1d6e97a76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказКлиента</Name>
+			<Comment/>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="52a33db6-f6cb-48c9-9afb-58485afaf436">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>37cf8891-f7e5-4223-a4fe-8aa0212b88aa</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a5364dc2-d8b2-49a0-b778-7aee614379e6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресДоставки</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="774c2a8d-2963-4d01-a150-be240522740b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресДоставкиЗначенияПолей</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2b762a55-5ec7-4c1f-a9f8-41f53f036e04">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресДоставкиПеревозчика</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5caf7bea-e922-4955-ab05-782037fb2781">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресДоставкиПеревозчикаЗначенияПолей</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="efa03076-fc3f-4e07-983d-70039923ac00">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийСчет</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="54cf5da5-ddd1-45a9-be90-7693157a1518">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанковскийСчетКонтрагента</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="feb505cd-0364-451c-a65d-06adbe4be3e0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ba0af697-389a-45e0-a5a9-02eeae3f4d25">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГрафикОплаты</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dd9de457-7924-400b-9388-5ba2986c516c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="196b4a33-2a0e-4807-8984-e5106243d315">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6a116832-7442-4054-883b-5286ddbc3149">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтактноеЛицо</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5a1aa4a3-a945-4d88-8bbf-e0453ef39a65">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9fe95b65-c1b6-49e8-bec2-323076fa4a76">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Менеджер</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3cb0b324-0e0c-45e2-a4fa-5c82c0926eac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НалогообложениеНДС</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9f727910-6fc4-46ff-8164-5d0d30b0e8f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4e98c92b-67e0-4cf7-95e5-f5b0b8dea653">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b4739aee-0bbf-44d5-b155-464211e8eb63">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПеревозчикПартнер</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="58958550-06cd-40bc-b6c7-5e2f0d58f1da">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fe8f1100-822f-4acb-a00a-939d8b0f385c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПорядокРасчетов</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="48384139-879b-441b-8988-94b5ac0680d5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Приоритет</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b50b0525-eae3-468c-922b-a8867b93105f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СкидкиРассчитаны</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da04c0f0-33a9-4447-9e0e-b0a166ea9c61">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1346103c-6f48-4403-988a-ef1b28ccc7a1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Соглашение</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="97fc8626-4161-4e10-8931-fb7ceb05544a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СпособДоставки</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b6c7a00a-11e4-4f01-bae6-f560e7d8a929">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Статус</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6c63ac7d-0c80-41d5-b990-d1086d159e08">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bc4ebfca-351d-49fc-8768-4c28df9b753d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЦенаВключаетНДС</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f38e2e7c-1de5-4a68-8a86-4ea0292f46e7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОтгрузки</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="66d47197-449e-4d9e-addc-0dd6b64a0231">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаправлениеДеятельности</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ea80ea8b-29af-4bbd-8515-992d34d2c13f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4ef6eafb-86f1-4c33-b3d5-7aa106023667">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bfd6197a-2365-4d4f-8e89-207e2b7ca355</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="d65811cd-1e57-410a-83ee-b38fcfee6bd8">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаказКлиента.Товары" category="TabularSection">
+						<xr:TypeId>0d4adaf0-f39a-4da1-90ac-1334bfef701a</xr:TypeId>
+						<xr:ValueId>846c29bd-88e0-4c96-9cb7-4fd37cd7b87a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаказКлиента.Товары" category="TabularSectionRow">
+						<xr:TypeId>76558140-351f-4540-87a9-0e85d51f14a3</xr:TypeId>
+						<xr:ValueId>ea7ae589-7642-481d-94e8-225a214645a4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2f5d3584-9bd9-44d3-984c-45c9fd0149ab">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0e1d0658-82fb-4bcd-92c8-9aa8548dce7c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Характеристика</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bac38ad6-4623-43eb-a210-63a33ec20344">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Упаковка</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="94409398-d975-4340-bb47-1e39a47a57bf">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КлючСвязи</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3e101d9f-be5f-4d45-a054-4ef6314dd783">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Количество</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="859833f0-1708-4ed3-9c93-a09729d0b6a0">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПроцентРучнойСкидки</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8d029d00-c054-452b-a587-c8df30ccb9ab">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПроцентАвтоматическойСкидки</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7bc58e12-829e-4e1e-967c-ddd1b5b05e09">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПричинаОтмены</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="157c6906-cb23-419e-83fa-c3d141efe248">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КодСтроки</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7c6c132e-f9b8-4e56-a633-5343eb0ed270">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Отменено</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5c245e64-9400-489d-8bbc-9380807b86b5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Содержание</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ad6b653a-5cd5-41a1-ab5b-9f2f85d067fb">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Склад</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5be01024-ebb3-4339-bb6e-8a2c9499853a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ВариантОбеспечения</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="45a3b5c4-39c7-416c-b521-a64172008d17">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КоличествоУпаковок</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ff9bfcc0-c78f-4131-a5f8-f63e49930be4">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДатаОтгрузки</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b6e5980e-8d78-4d4f-adeb-2905e27172d7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Цена</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="46665233-e96c-4792-9b86-480cfe1b8a38">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="30bfcd2f-2e28-4874-b550-7e59ca9d39d8">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаНДС</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="509662d4-98e2-46b4-8495-6e27ea090d2f">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаСНДС</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6db73d39-0b6a-43c4-ac2f-7764bbd452d6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаРучнойСкидки</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="71b06f16-957c-4440-9c7b-91fa015053bf">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаАвтоматическойСкидки</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3ecf2bb2-e3f2-4bb6-bfde-158b953fc736">
+						<Properties>
+							<Name>Б24_К_ИдентификаторПозиции</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Идентификатор позиции Битрикс24</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>40</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c10b0ba7-06b9-4fc0-8f28-3a17cdde78f5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СтавкаНДС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>8d858c66-da95-4821-bb40-fa943a0ee507</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="b2d3fa68-214b-4bf8-a8ec-647422f935e7">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаказКлиента.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>886aaa10-e1c3-49de-89fe-2a90f46d72dd</xr:TypeId>
+						<xr:ValueId>5c7584ee-cd70-4506-a207-ea5a96b9729e</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаказКлиента.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>9e8be5b3-ff50-4b4e-b41c-0292a86f5db6</xr:TypeId>
+						<xr:ValueId>f71cd159-069e-4cad-b9cd-232d6dcc2909</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ad55d259-67bd-4b88-8e10-c226d0134e58</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5b832966-34dd-44b4-99bd-817b293ac7bc">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>eed35b1a-ee86-4d79-a713-dd66f3bb1193</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4178d323-3336-4135-8ceb-a9dd8c2e7bcd">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Значение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c2c122b9-ec25-4562-bd52-416a9d3077c0</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5d30ed66-4b32-4f53-b860-fa54fa8e11d1">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ТекстоваяСтрока</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>064625f7-6460-471c-b59e-076fa8d95b90</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

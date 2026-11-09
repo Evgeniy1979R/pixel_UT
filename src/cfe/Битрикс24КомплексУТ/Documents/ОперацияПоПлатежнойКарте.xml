@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="4b14471b-e3bd-456e-81e0-352f6d1a2036">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияПоПлатежнойКарте" category="Object">
+				<xr:TypeId>fb8612bf-acbc-4685-84b4-e8bdae844a9d</xr:TypeId>
+				<xr:ValueId>ee2530b8-e32f-4cd3-873e-8915f453edde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияПоПлатежнойКарте" category="Ref">
+				<xr:TypeId>16416e48-96c4-4a54-a5b3-946434a22a64</xr:TypeId>
+				<xr:ValueId>e2736da8-0720-47dd-ade1-071500f2465a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияПоПлатежнойКарте" category="Selection">
+				<xr:TypeId>f45fffe5-0771-4be9-b82c-d921205a57c5</xr:TypeId>
+				<xr:ValueId>51c4a616-e750-4083-90b0-42db064b69ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияПоПлатежнойКарте" category="List">
+				<xr:TypeId>8ec92116-105b-44df-95de-11c04dd9931c</xr:TypeId>
+				<xr:ValueId>9589b119-22d2-4d6a-a82e-701a4b19ad5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияПоПлатежнойКарте" category="Manager">
+				<xr:TypeId>a649b457-e57e-491f-939b-3752105b7d51</xr:TypeId>
+				<xr:ValueId>6dcd2b3a-71c2-46a1-a9bf-46aea32804f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОперацияПоПлатежнойКарте</Name>
+			<Comment/>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="43fb76a3-dade-4761-9494-acd50f9f2ed5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ce4b005d-f315-43e7-a623-4beba8f6b7f8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b26ac4a5-621d-4b20-8f8c-439a0736d06c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Валюта</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="05614c31-a336-4b6f-af9d-a5603a5c5d60">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4ac428a3-e4b1-471e-877b-569bece276b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭквайринговыйТерминал</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c9b642f1-81af-464a-8a99-97443e367e6a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерПлатежнойКарты</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="074a0753-d6dd-4e5c-a440-8f4e9b487ea7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОплатаВыполнена</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="174fee9d-1488-4219-97b8-397312682a5e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="12a3e6e9-b923-4633-ab66-d1fab6342f8c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7b2cc137-808b-4759-85bf-11254ef53079">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтатьяДвиженияДенежныхСредств</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a4d5eb66-e303-494d-afa3-fde2485c76ff">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="437e628e-a526-4b24-a316-fdca6482a8af">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаправлениеДеятельности</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3640e6bc-4c18-4664-a720-c58b3ef6eff4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Договор</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0849eb17-52b3-4008-92cd-37dddd94f091">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="95fb4f80-c3b5-473e-8636-9ab965491a79">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e3846084-a67d-4458-872c-71e9251060db">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>543b7415-5767-4536-8fe6-cc062b6754cf</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="613d8356-6291-4850-becd-ce03d7639cf0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДоговорЭквайринга</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ecc4eb3a-88e5-486f-a05e-f6c046cadcf8</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="f1010364-94b6-4f87-8a0e-6c31ffd06eec">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОперацияПоПлатежнойКарте.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>fce6e817-d319-4ed5-a4d0-f9c8fe50189c</xr:TypeId>
+						<xr:ValueId>017f98eb-a67e-4950-b163-90ceee1d2aa2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОперацияПоПлатежнойКарте.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>649467c1-fd09-4842-bf63-7fb43df34896</xr:TypeId>
+						<xr:ValueId>c2d7f22a-5c7f-4c24-a0c0-66f058905bef</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="34608a68-1765-4376-92da-64c79fec889a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Партнер</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="90b71a58-b41c-4d6c-81d7-c774ba9fff85">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СтатьяДвиженияДенежныхСредств</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="27d0d52c-e837-4f74-8552-ea989b3b8347">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОснованиеПлатежа</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7dd75fe9-97df-47aa-9d0e-f9ed27b88a37">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ВалютаВзаиморасчетов</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d675ecce-aaba-4782-82b8-dc2229f48c9c">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сумма</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8a0b3853-562c-41dd-b041-496c4ee57d2a">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаВзаиморасчетов</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f71384f3-6dab-4dbf-82d2-7e6975c4386b">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СуммаНДС</Name>
+							<Comment/>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d946f553-cf52-41f6-9543-53784f65aba0">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СтавкаНДС</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>a607ed64-0c99-40c8-b25e-424757bfb2e5</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="11f11b9a-a2a4-46eb-81cb-f657255813d8">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>855c6534-ffa9-4192-93d5-baabbf4e3f5d</ExtendedConfigurationObject>
+							<Type/>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

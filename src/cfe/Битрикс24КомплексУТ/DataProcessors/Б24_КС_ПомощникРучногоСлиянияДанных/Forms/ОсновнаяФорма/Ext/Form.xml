@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаКнопкаЗакрыть" id="1">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаКнопкаЗакрытьРасширеннаяПодсказка" id="2"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаКоннектор" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коннектор</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ГруппаКоннекторРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<InputField name="НастройкаПодключения" id="22">
+					<DataPath>НастройкаПодключения</DataPath>
+					<AutoMarkIncomplete>true</AutoMarkIncomplete>
+					<ContextMenu name="НастройкаПодключенияКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НастройкаПодключенияРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">НастройкаПодключенияПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаГруппировка" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группировка по горизонтали</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаГруппировкаРасширеннаяПодсказка" id="38"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаCRM" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные CRM</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа CRM</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаCRMРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<Button name="Компании" id="3">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.Компании</CommandName>
+							<ExtendedTooltip name="КомпанииРасширеннаяПодсказка" id="4"/>
+						</Button>
+						<Button name="Контакты" id="43">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.Контакты</CommandName>
+							<ExtendedTooltip name="КонтактыРасширеннаяПодсказка" id="44"/>
+						</Button>
+						<Button name="ДополнительныеПоля" id="20">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.ПользовательскиеПоля</CommandName>
+							<ExtendedTooltip name="ДополнительныеПоляРасширеннаяПодсказка" id="21"/>
+						</Button>
+						<Button name="СмартПроцессы" id="45">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.СмартПроцессы</CommandName>
+							<ExtendedTooltip name="СмартПроцессыРасширеннаяПодсказка" id="46"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТовары" id="33">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Данные товаров</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа товары</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>StrongSeparation</Representation>
+					<ExtendedTooltip name="ГруппаТоварыРасширеннаяПодсказка" id="34"/>
+					<ChildItems>
+						<Button name="Прайсы" id="31">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.Прайсы</CommandName>
+							<ExtendedTooltip name="ПрайсыРасширеннаяПодсказка" id="32"/>
+						</Button>
+						<Button name="ЕдиницыИзмерения" id="27">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.ЕдиницыИзмерения</CommandName>
+							<ExtendedTooltip name="ЕдиницыИзмеренияРасширеннаяПодсказка" id="28"/>
+						</Button>
+						<Button name="СвойстваТоваровИПредложений" id="25">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.СвойстваТоваровИПредложений</CommandName>
+							<ExtendedTooltip name="СвойстваТоваровИПредложенийРасширеннаяПодсказка" id="26"/>
+						</Button>
+						<Button name="Разделы" id="29">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.Разделы</CommandName>
+							<ExtendedTooltip name="РазделыРасширеннаяПодсказка" id="30"/>
+						</Button>
+						<Button name="Товары" id="39">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.Товары</CommandName>
+							<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="40"/>
+						</Button>
+						<Button name="Предложения" id="41">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.Предложения</CommandName>
+							<ExtendedTooltip name="ПредложенияРасширеннаяПодсказка" id="42"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.Б24_КС_ПомощникРучногоСлиянияДанных</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Портал" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Портал</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>200</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="НастройкаПодключения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка подключения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Б24_К_НастройкиПодключения</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтображатьНаСтранице" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отображать на странице</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Компании" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компании</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компании</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Компании</Action>
+		</Command>
+		<Command name="ПользовательскиеПоля" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользовательские поля</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользовательские поля</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПользовательскиеПоля</Action>
+		</Command>
+		<Command name="СвойстваТоваровИПредложений" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойства товаров и предложений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойства товаров и предложений</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СвойстваТоваровИПредложений</Action>
+		</Command>
+		<Command name="ЕдиницыИзмерения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единицы измерения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единицы измерения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЕдиницыИзмерения</Action>
+		</Command>
+		<Command name="Разделы" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разделы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Разделы</Action>
+		</Command>
+		<Command name="Прайсы" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прайсы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прайсы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Прайсы</Action>
+		</Command>
+		<Command name="Товары" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Товары</Action>
+		</Command>
+		<Command name="Предложения" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вариации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предложения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Предложения</Action>
+		</Command>
+		<Command name="Контакты" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контакты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контакты компании</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Контакты</Action>
+		</Command>
+		<Command name="СмартПроцессы" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Смарт-процессы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Смарт процессы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СмартПроцессы</Action>
+		</Command>
+	</Commands>
+</Form>

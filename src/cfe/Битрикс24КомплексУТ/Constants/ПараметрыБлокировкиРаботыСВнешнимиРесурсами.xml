@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="4dbe6952-4f66-4806-b591-fd4196caf51e">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ПараметрыБлокировкиРаботыСВнешнимиРесурсами" category="Manager">
+				<xr:TypeId>f2720133-5340-425d-b6f6-a5d49c5a4226</xr:TypeId>
+				<xr:ValueId>b925c35b-3d2a-4756-9db4-b7a6ee63da94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ПараметрыБлокировкиРаботыСВнешнимиРесурсами" category="ValueManager">
+				<xr:TypeId>f863c504-641d-4fd5-bf3c-e0fe6d4a6397</xr:TypeId>
+				<xr:ValueId>3fbcfcbe-4f24-452a-8735-7b5fee00169a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ПараметрыБлокировкиРаботыСВнешнимиРесурсами" category="ValueKey">
+				<xr:TypeId>a86f3b6f-d492-4b78-b3a3-76951da897ae</xr:TypeId>
+				<xr:ValueId>2a9488df-fecd-4a26-aefa-2d3a8302a488</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПараметрыБлокировкиРаботыСВнешнимиРесурсами</Name>
+			<Comment/>
+			<Type/>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="3f7ea3bf-2717-43a1-aeb8-0e44c564105e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторБанков" category="Object">
+				<xr:TypeId>4a62f87b-823d-4b53-9ba1-a75c683b09bc</xr:TypeId>
+				<xr:ValueId>0c2cf071-c828-4a71-9634-b404ef283abe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторБанков" category="Ref">
+				<xr:TypeId>c4acf35e-56bf-4709-afb3-34565e2fa850</xr:TypeId>
+				<xr:ValueId>ca00e34a-b72d-4294-ab03-fb88a541e7aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторБанков" category="Selection">
+				<xr:TypeId>b1ba6fd2-1664-455e-9d72-3117eceb252d</xr:TypeId>
+				<xr:ValueId>2d6a780a-cc3a-42e9-9afa-7da796954780</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторБанков" category="List">
+				<xr:TypeId>388a2086-556b-4cf6-8151-138ab127fb63</xr:TypeId>
+				<xr:ValueId>e9e94d1a-13ff-49c6-b5a2-e0787568ef93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторБанков" category="Manager">
+				<xr:TypeId>f45760c6-8d23-4084-ba59-20d1375808df</xr:TypeId>
+				<xr:ValueId>7cdfcb2e-332e-46f6-b8c5-838b5251ceb0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторБанков</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9c0cf993-dae6-4d8d-8dcf-69079c5994f4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КоррСчет</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="818fec34-6e85-4e6e-97c5-52be2c75aa74">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Город</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="67252143-7714-4e49-82ed-1c2a25dfd736">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Адрес</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f103e703-583c-42b7-91ad-ae315fa5e956">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СВИФТБИК</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

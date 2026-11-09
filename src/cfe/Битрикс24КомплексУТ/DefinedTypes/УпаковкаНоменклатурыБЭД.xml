@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="06b54ee1-b497-4484-a482-d6e2d9b2bc7e">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.УпаковкаНоменклатурыБЭД" category="DefinedType">
+				<xr:TypeId>584159c4-a108-4f06-a536-b46107a8ed24</xr:TypeId>
+				<xr:ValueId>df38577c-510b-4e75-abbe-64bb6d43f202</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УпаковкаНоменклатурыБЭД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f5578f0a-9a65-4cc2-854b-e64f924fd7a5</ExtendedConfigurationObject>
+			<Type/>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

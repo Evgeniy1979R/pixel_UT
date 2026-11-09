@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c7d8f39d-5ea6-4173-b160-79287f671ed9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыЦен" category="Object">
+				<xr:TypeId>d4fd27e5-7b4f-4127-a4f5-5cb6322078cd</xr:TypeId>
+				<xr:ValueId>cf9957c3-0b7b-458a-98b8-ad2b2fe6a0b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыЦен" category="Ref">
+				<xr:TypeId>94c1c66c-cb89-42d2-ac09-350c288b0019</xr:TypeId>
+				<xr:ValueId>15cadd49-7a98-42ab-8312-2d0c507603d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыЦен" category="Selection">
+				<xr:TypeId>d50f735a-c844-47ad-8907-69b85ead826a</xr:TypeId>
+				<xr:ValueId>54c7c581-c2af-42fd-a0e7-c3b714809ed5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыЦен" category="List">
+				<xr:TypeId>23313344-3393-481e-b7dd-9743eb7d8938</xr:TypeId>
+				<xr:ValueId>58b443b1-4bfa-4216-b6e0-0e4a6f11262a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыЦен" category="Manager">
+				<xr:TypeId>e962a7ab-6ca9-4a4c-baa1-7fd6ffb58b17</xr:TypeId>
+				<xr:ValueId>760397fb-a996-4ae4-9e94-b74c08e25957</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыЦен</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1960463d-7d10-49ec-b48c-618a70a11f7c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЦенаВключаетНДС</Name>
+					<Comment/>
+					<Type/>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c745a82c-2f94-4843-9f01-846abedbc2fe">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаЦены</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7a3bb1cf-8b3e-4d0f-bcfd-3290721af2c9</ExtendedConfigurationObject>
+					<Type/>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
