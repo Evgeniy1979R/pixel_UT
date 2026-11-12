@@ -127,6 +127,7 @@
 			<CommonModule>ДополнительныеОтчетыИОбработкиКлиентПереопределяемый</CommonModule>
 			<XDTOPackage>ДР_prud</XDTOPackage>
 			<WebService>exchangeProkat</WebService>
+			<HTTPService>StocksPricesReservesB24</HTTPService>
 			<EventSubscription>Пикс_ПриЗаписиДокумента</EventSubscription>
 			<EventSubscription>Пикс_ДокументыОбработкаПроведения</EventSubscription>
 			<EventSubscription>Пикс_ОбработкаУдаленияПроведения</EventSubscription>
